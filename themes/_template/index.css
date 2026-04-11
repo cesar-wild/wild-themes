@@ -1,0 +1,37 @@
+/*
+ * <theme-name> — Wild Agents
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ *
+ * Reference the existing POC themes on staging for the full token list:
+ * http://5.223.73.101:8080
+ */
+
+:root {
+  /* Accent / brand color */
+  --color-accent-l: 0.6;
+  --color-accent-c: 0.2;
+  --color-accent-h: 270;
+
+  /* Surface (background) */
+  --color-surface-l: 0.12;
+  --color-surface-c: 0.01;
+  --color-surface-h: 240;
+
+  /* Text — primary */
+  --color-text-primary-l: 0.95;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 240;
+
+  /* Text — secondary */
+  --color-text-secondary-l: 0.65;
+  --color-text-secondary-c: 0.02;
+  --color-text-secondary-h: 240;
+
+  /* Border */
+  --color-border-l: 0.25;
+  --color-border-c: 0.02;
+  --color-border-h: 240;
+}
