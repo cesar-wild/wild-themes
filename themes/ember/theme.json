@@ -1,0 +1,8 @@
+{
+  "id": "ember",
+  "name": "Ember",
+  "description": "Forge-dark theme. Near-black surfaces, burning orange accent. The metal is hot, the work is sharp.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": ["dark", "high-contrast", "warm-accent"]
+}

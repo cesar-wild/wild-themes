@@ -1,0 +1,37 @@
+/*
+ * wolf-dark — Wild Agents
+ *
+ * Deep forest theme. The pack hunts at night.
+ * Dark midnight surfaces, warm amber accent — campfire in the dark.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — amber/gold, like firelight in the forest */
+  --color-accent-l: 0.72;
+  --color-accent-c: 0.16;
+  --color-accent-h: 78;
+
+  /* Surface — midnight forest, deep cold-green dark */
+  --color-surface-l: 0.10;
+  --color-surface-c: 0.01;
+  --color-surface-h: 155;
+
+  /* Text — primary: near-white, slightly warm */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 90;
+
+  /* Text — secondary: muted grey, forest floor */
+  --color-text-secondary-l: 0.58;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 155;
+
+  /* Border — dark, barely visible edge */
+  --color-border-l: 0.22;
+  --color-border-c: 0.01;
+  --color-border-h: 155;
+}
