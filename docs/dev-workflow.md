@@ -1,12 +1,17 @@
 # Wild Themes — Development Workflow
 
-This document describes how Wild Agents engineers develop, test, and ship Paperclip themes to staging.
+This document describes how Wild Agents engineers develop, test, and ship Paperclip themes and plugins.
 
 ---
 
-## Overview
+## Environment Layout
 
-Paperclip themes are CSS files that override the platform's OKLCH design token variables. They are delivered as Paperclip plugins via the plugin SDK. The staging Paperclip instance at `http://5.223.73.101:8080` is our target deployment environment.
+| Environment     | URL                           | Purpose                                              |
+| --------------- | ----------------------------- | ---------------------------------------------------- |
+| **Orchestration** | `http://5.223.73.101:8080` | Where Wild Agents lives and works. **NEVER** deploy experimental themes/plugins here. |
+| **Dev**         | `http://5.223.73.101:8081`   | Testing ground for themes and plugins. Expendable — rebuild if it breaks. |
+
+> **Rule:** All theme and plugin testing happens on **dev (:8081)**. The orchestration instance (:8080) is off-limits for experiments.
 
 ---
 
@@ -78,11 +83,15 @@ Paperclip exposes design tokens as CSS custom properties. Themes override these 
 }
 ```
 
-> **Token reference:** Check the existing proof-of-concept themes on staging (`http://5.223.73.101:8080`) for the full list of available tokens.
+> **Token reference:** Check the existing proof-of-concept themes on dev (`http://5.223.73.101:8081`) for the full list of available tokens.
 
 ---
 
 ## Development Workflow
+
+```
+code (local/workspace) → validate → deploy to dev (:8081) → QA review → merge to main
+```
 
 ### 1. Branch from main
 
@@ -110,15 +119,25 @@ This checks:
 - `index.css` parses without errors
 - No disallowed properties (e.g., `!important` on system tokens)
 
-### 4. Deploy to staging
+### 4. Deploy to dev
 
 ```bash
 bash scripts/deploy.sh themes/<your-theme-name>
 ```
 
-This uploads the theme to the Paperclip staging API. You can preview it immediately at `http://5.223.73.101:8080`.
+This uploads the theme to the **dev instance** at `:8081`. You can preview it immediately at `http://5.223.73.101:8081`.
 
-### 5. Open a Pull Request
+Set env vars before deploying:
+```bash
+export PAPERCLIP_DEV_URL=http://5.223.73.101:8081
+export PAPERCLIP_DEV_API_KEY=<your-dev-api-key>
+```
+
+### 5. QA review on dev
+
+Tag Vigia to review the theme on `http://5.223.73.101:8081`. QA approval is required before the PR can merge.
+
+### 6. Open a Pull Request
 
 ```bash
 git add themes/<your-theme-name>
@@ -126,7 +145,7 @@ git commit -m "feat(theme): add <your-theme-name>
 
 Co-Authored-By: Paperclip <noreply@paperclip.ing>"
 git push origin theme/<your-theme-name>
-gh pr create --title "feat(theme): <your-theme-name>" --body "Preview: [staging link]"
+gh pr create --title "feat(theme): <your-theme-name>" --body "Preview: http://5.223.73.101:8081"
 ```
 
 **Branch protection rules on `main`:**
@@ -134,9 +153,9 @@ gh pr create --title "feat(theme): <your-theme-name>" --body "Preview: [staging 
 - No direct pushes to `main`
 - Status checks must pass (validate script)
 
-### 6. After merge
+### 7. After merge
 
-The CI/CD pipeline (or a manual deploy trigger) re-deploys to staging. Confirm the theme appears on the staging instance.
+Redeploy to dev to confirm the merged version is clean. Orchestration (:8080) is **not** a deployment target.
 
 ---
 
@@ -150,10 +169,16 @@ bash scripts/deploy.sh themes/<theme-name>
 
 ---
 
-## Staging Reference
+## Environment Reference
 
-- **Staging URL:** `http://5.223.73.101:8080`
-- **Existing POC themes:** Browse the theme gallery on staging for the 6 proof-of-concept themes. These serve as visual and token references.
+| Property         | Orchestration (:8080)              | Dev (:8081)                        |
+| ---------------- | ---------------------------------- | ---------------------------------- |
+| Purpose          | Company operations                 | Theme/plugin testing               |
+| Deploy themes?   | **NO — never**                    | Yes                                |
+| Deploy plugins?  | **NO — never**                    | Yes                                |
+| Expendable?      | No — protect at all costs          | Yes — rebuild if broken            |
+| Env var          | —                                  | `PAPERCLIP_DEV_URL`                |
+| API key var      | —                                  | `PAPERCLIP_DEV_API_KEY`            |
 
 ---
 
