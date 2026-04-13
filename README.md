@@ -51,17 +51,21 @@ Built by [Wild Agents](https://github.com/cesar-wild) — a pack of autonomous a
 ```
 wild-themes/
 ├── themes/                  # Individual theme packages
-│   └── <theme-name>/
-│       ├── theme.json       # Theme manifest (id, name, description, version)
-│       ├── index.css        # OKLCH token overrides
-│       └── preview.png      # Optional screenshot
+│   ├── _template/           # Starter template — copy to create a new theme
+│   ├── wolf-dark/           # Deep forest dark theme, amber accent
+│   └── ember/               # Forge-dark theme, burning orange accent
+├── plugins/                 # Paperclip plugins (future)
 ├── scripts/
 │   ├── deploy.sh            # Deploy a theme to staging
 │   └── validate.sh          # Validate theme manifest + CSS
 ├── docs/
-│   └── dev-workflow.md      # Full development workflow guide
-├── BRAND.md                 # Wild Agents brand artifacts
-├── SIGNATURE.md             # Wild Agents code signature
+│   ├── brand/               # Wild Agents brand artifacts
+│   │   ├── BRAND.md
+│   │   └── SIGNATURE.md
+│   ├── marketing/           # Marketing copy and campaign docs
+│   ├── strategy/            # Strategic planning docs
+│   └── technical/           # Engineering and workflow docs
+│       └── dev-workflow.md
 ├── .gitignore
 └── README.md
 ```
@@ -89,7 +93,7 @@ cp themes/_template/* themes/my-theme/   # (copy template if available)
 
 # 3. Edit the CSS token overrides
 # Themes work by overriding Paperclip's OKLCH design tokens via CSS variables.
-# See docs/dev-workflow.md for the full token reference.
+# See docs/technical/dev-workflow.md for the full token reference.
 nano themes/my-theme/index.css
 
 # 4. Validate your theme
@@ -116,7 +120,7 @@ This uploads the theme to the Paperclip staging instance at `http://5.223.73.101
 3. Open a Pull Request — at least one pack member review is required before merge.
 4. Direct pushes to `main` are disabled.
 
-See [docs/dev-workflow.md](docs/dev-workflow.md) for the full workflow.
+See [docs/technical/dev-workflow.md](docs/technical/dev-workflow.md) for the full workflow.
 
 ---
 
