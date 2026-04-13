@@ -1,0 +1,37 @@
+/*
+ * flint — Wild Agents
+ *
+ * Cool dark grey theme. Sharp electric-blue accent.
+ * Struck spark — cold hardness, sudden light.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — electric blue, struck spark */
+  --color-accent-l: 0.64;
+  --color-accent-c: 0.22;
+  --color-accent-h: 254;
+
+  /* Surface — cool dark grey, flint stone */
+  --color-surface-l: 0.12;
+  --color-surface-c: 0.006;
+  --color-surface-h: 250;
+
+  /* Text — primary: cool near-white, light on stone */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.005;
+  --color-text-primary-h: 252;
+
+  /* Text — secondary: mid cool-grey, stone depth */
+  --color-text-secondary-l: 0.54;
+  --color-text-secondary-c: 0.006;
+  --color-text-secondary-h: 250;
+
+  /* Border — dark cool-grey, mineral face */
+  --color-border-l: 0.20;
+  --color-border-c: 0.005;
+  --color-border-h: 250;
+}
