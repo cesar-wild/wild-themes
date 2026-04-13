@@ -1,0 +1,37 @@
+/*
+ * sepia — Wild Agents
+ *
+ * Warm brown light theme. Aged amber accent.
+ * Old photographs and slow thinking — patience built in.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — aged amber, the colour of old knowledge */
+  --color-accent-l: 0.57;
+  --color-accent-c: 0.14;
+  --color-accent-h: 65;
+
+  /* Surface — warm parchment, yellowed by time */
+  --color-surface-l: 0.95;
+  --color-surface-c: 0.020;
+  --color-surface-h: 82;
+
+  /* Text — primary: deep sepia brown, classic legibility */
+  --color-text-primary-l: 0.20;
+  --color-text-primary-c: 0.018;
+  --color-text-primary-h: 65;
+
+  /* Text — secondary: warm mid-brown, footnote weight */
+  --color-text-secondary-l: 0.47;
+  --color-text-secondary-c: 0.014;
+  --color-text-secondary-h: 65;
+
+  /* Border — warm tan, aged paper edge */
+  --color-border-l: 0.85;
+  --color-border-c: 0.016;
+  --color-border-h: 78;
+}

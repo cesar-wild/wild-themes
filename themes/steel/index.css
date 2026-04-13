@@ -1,0 +1,37 @@
+/*
+ * steel — Wild Agents
+ *
+ * Cool mid-grey dark theme. Steel-blue accent.
+ * Industrial precision, nothing soft — built to last.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — steel blue, cold and precise */
+  --color-accent-l: 0.58;
+  --color-accent-c: 0.14;
+  --color-accent-h: 230;
+
+  /* Surface — cool dark grey, rolled steel plate */
+  --color-surface-l: 0.12;
+  --color-surface-c: 0.006;
+  --color-surface-h: 230;
+
+  /* Text — primary: cool off-white, sharp readability */
+  --color-text-primary-l: 0.92;
+  --color-text-primary-c: 0.006;
+  --color-text-primary-h: 228;
+
+  /* Text — secondary: cool mid-grey, machined surface */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.006;
+  --color-text-secondary-h: 230;
+
+  /* Border — dark steel, load-bearing lines */
+  --color-border-l: 0.22;
+  --color-border-c: 0.006;
+  --color-border-h: 230;
+}

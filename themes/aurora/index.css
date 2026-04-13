@@ -1,0 +1,37 @@
+/*
+ * aurora — Wild Agents
+ *
+ * Dark theme. Vivid teal-green accent.
+ * Northern lights over frozen ground — wild, electric, and still.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid teal-green, aurora ripple */
+  --color-accent-l: 0.65;
+  --color-accent-c: 0.22;
+  --color-accent-h: 175;
+
+  /* Surface — deep blue-black, frozen night sky */
+  --color-surface-l: 0.07;
+  --color-surface-c: 0.018;
+  --color-surface-h: 240;
+
+  /* Text — primary: cool white, ice-clear */
+  --color-text-primary-l: 0.94;
+  --color-text-primary-c: 0.006;
+  --color-text-primary-h: 220;
+
+  /* Text — secondary: cool grey-blue, distant ice */
+  --color-text-secondary-l: 0.57;
+  --color-text-secondary-c: 0.012;
+  --color-text-secondary-h: 230;
+
+  /* Border — dark blue-grey, permafrost lines */
+  --color-border-l: 0.16;
+  --color-border-c: 0.014;
+  --color-border-h: 240;
+}
