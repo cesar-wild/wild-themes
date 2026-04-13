@@ -1,0 +1,37 @@
+/*
+ * midnight-blue — Wild Agents
+ *
+ * Deep navy dark theme. Electric blue accent.
+ * Total focus at 2am — the world goes quiet, code stays sharp.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — electric blue, vibrant signal in the dark */
+  --color-accent-l: 0.55;
+  --color-accent-c: 0.22;
+  --color-accent-h: 250;
+
+  /* Surface — very dark navy, deep and immersive */
+  --color-surface-l: 0.08;
+  --color-surface-c: 0.025;
+  --color-surface-h: 258;
+
+  /* Text — primary: near-white cool, crisp in the dark */
+  --color-text-primary-l: 0.94;
+  --color-text-primary-c: 0.008;
+  --color-text-primary-h: 250;
+
+  /* Text — secondary: grey-blue, recedes into the night */
+  --color-text-secondary-l: 0.60;
+  --color-text-secondary-c: 0.015;
+  --color-text-secondary-h: 250;
+
+  /* Border — dark navy mid, barely visible structure */
+  --color-border-l: 0.18;
+  --color-border-c: 0.020;
+  --color-border-h: 258;
+}
