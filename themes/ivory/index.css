@@ -1,0 +1,37 @@
+/*
+ * ivory — Wild Agents
+ *
+ * Warm off-white light theme. Soft amber accent.
+ * Old keys, old bone — warmth without glare.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — soft amber, warm candlelight */
+  --color-accent-l: 0.62;
+  --color-accent-c: 0.12;
+  --color-accent-h: 58;
+
+  /* Surface — warm off-white, polished ivory */
+  --color-surface-l: 0.98;
+  --color-surface-c: 0.006;
+  --color-surface-h: 62;
+
+  /* Text — primary: deep warm-brown, ink on parchment */
+  --color-text-primary-l: 0.14;
+  --color-text-primary-c: 0.010;
+  --color-text-primary-h: 60;
+
+  /* Text — secondary: mid warm-grey, aged type */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.008;
+  --color-text-secondary-h: 58;
+
+  /* Border — pale warm-beige, old paper edge */
+  --color-border-l: 0.90;
+  --color-border-c: 0.006;
+  --color-border-h: 60;
+}
