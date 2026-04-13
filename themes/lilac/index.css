@@ -1,0 +1,37 @@
+/*
+ * lilac — Wild Agents
+ *
+ * Soft pale-purple light theme. Vivid violet accent.
+ * Spring blossom — gentle, faintly sweet.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid violet, petal pop */
+  --color-accent-l: 0.50;
+  --color-accent-c: 0.20;
+  --color-accent-h: 288;
+
+  /* Surface — pale lilac-white, overcast spring sky */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.006;
+  --color-surface-h: 286;
+
+  /* Text — primary: deep cool-purple grey, stem shadow */
+  --color-text-primary-l: 0.14;
+  --color-text-primary-c: 0.010;
+  --color-text-primary-h: 290;
+
+  /* Text — secondary: mid lavender-grey, diffused bloom */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.008;
+  --color-text-secondary-h: 288;
+
+  /* Border — pale lilac, soft petal edge */
+  --color-border-l: 0.89;
+  --color-border-c: 0.006;
+  --color-border-h: 286;
+}
