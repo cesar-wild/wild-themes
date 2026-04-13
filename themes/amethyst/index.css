@@ -1,0 +1,37 @@
+/*
+ * amethyst — Wild Agents
+ *
+ * Dark cool-purple theme. Vivid pink-purple accent.
+ * Gemstone clarity in the dark — faceted, precise, valuable.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid pink-purple, cut gemstone face */
+  --color-accent-l: 0.62;
+  --color-accent-c: 0.24;
+  --color-accent-h: 318;
+
+  /* Surface — dark cool-purple, stone in shadow */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.020;
+  --color-surface-h: 300;
+
+  /* Text — primary: cool off-white, light through crystal */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.007;
+  --color-text-primary-h: 305;
+
+  /* Text — secondary: muted violet-grey, inner stone */
+  --color-text-secondary-l: 0.57;
+  --color-text-secondary-c: 0.012;
+  --color-text-secondary-h: 308;
+
+  /* Border — dark purple, crystal edge */
+  --color-border-l: 0.18;
+  --color-border-c: 0.016;
+  --color-border-h: 300;
+}

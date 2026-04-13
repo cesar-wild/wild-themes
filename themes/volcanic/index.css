@@ -1,0 +1,37 @@
+/*
+ * volcanic — Wild Agents
+ *
+ * Near-black dark theme. Vivid red accent.
+ * Pressure building underground. Power held in check.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid red, magma signal */
+  --color-accent-l: 0.55;
+  --color-accent-c: 0.22;
+  --color-accent-h: 20;
+
+  /* Surface — near-black with warm ash undertone */
+  --color-surface-l: 0.08;
+  --color-surface-c: 0.008;
+  --color-surface-h: 20;
+
+  /* Text — primary: near-white warm, readable above the heat */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.006;
+  --color-text-primary-h: 20;
+
+  /* Text — secondary: warm mid-grey, recedes into the ash */
+  --color-text-secondary-l: 0.56;
+  --color-text-secondary-c: 0.008;
+  --color-text-secondary-h: 20;
+
+  /* Border — dark near-black warm, tectonic lines */
+  --color-border-l: 0.18;
+  --color-border-c: 0.008;
+  --color-border-h: 20;
+}

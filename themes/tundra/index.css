@@ -1,0 +1,37 @@
+/*
+ * tundra — Wild Agents
+ *
+ * Cold grey-green dark theme. Lichen green accent.
+ * Flat, open, relentless — no shelter, no distraction.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — lichen green, the only life out here */
+  --color-accent-l: 0.58;
+  --color-accent-c: 0.12;
+  --color-accent-h: 145;
+
+  /* Surface — cold grey-green dark, frozen ground */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.010;
+  --color-surface-h: 170;
+
+  /* Text — primary: pale grey, flat light visibility */
+  --color-text-primary-l: 0.92;
+  --color-text-primary-c: 0.005;
+  --color-text-primary-h: 165;
+
+  /* Text — secondary: cold muted grey-green, recedes */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.008;
+  --color-text-secondary-h: 162;
+
+  /* Border — dark cold grey-green, horizon line */
+  --color-border-l: 0.19;
+  --color-border-c: 0.008;
+  --color-border-h: 170;
+}

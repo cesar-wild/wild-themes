@@ -1,0 +1,8 @@
+{
+  "id": "mono-light",
+  "name": "Mono Light",
+  "description": "Pure neutral light theme. No color, no hue. Just grey tones and sharp contrast.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": ["light", "neutral", "minimal"]
+}

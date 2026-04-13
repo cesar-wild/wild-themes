@@ -1,0 +1,37 @@
+/*
+ * cobblestone — Wild Agents
+ *
+ * Warm medium-grey light theme. Muted blue accent.
+ * Old street — worn smooth, grey in the rain.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — muted blue, puddle sky reflection */
+  --color-accent-l: 0.48;
+  --color-accent-c: 0.09;
+  --color-accent-h: 228;
+
+  /* Surface — warm medium-grey white, wet stone */
+  --color-surface-l: 0.96;
+  --color-surface-c: 0.004;
+  --color-surface-h: 50;
+
+  /* Text — primary: dark warm-grey, shadow between stones */
+  --color-text-primary-l: 0.15;
+  --color-text-primary-c: 0.006;
+  --color-text-primary-h: 46;
+
+  /* Text — secondary: mid warm-grey, gutter shadow */
+  --color-text-secondary-l: 0.48;
+  --color-text-secondary-c: 0.005;
+  --color-text-secondary-h: 46;
+
+  /* Border — pale warm-grey, mortar line */
+  --color-border-l: 0.86;
+  --color-border-c: 0.004;
+  --color-border-h: 48;
+}

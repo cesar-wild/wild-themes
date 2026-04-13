@@ -1,0 +1,37 @@
+/*
+ * garnet — Wild Agents
+ *
+ * Deep dark red-brown theme. Vivid crimson-red accent.
+ * Rough gem — dense, mineral, saturated.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid crimson-red, gem face */
+  --color-accent-l: 0.52;
+  --color-accent-c: 0.22;
+  --color-accent-h: 12;
+
+  /* Surface — deep dark red-brown, raw garnet */
+  --color-surface-l: 0.08;
+  --color-surface-c: 0.014;
+  --color-surface-h: 14;
+
+  /* Text — primary: warm near-white, candlelight on gem */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.008;
+  --color-text-primary-h: 20;
+
+  /* Text — secondary: mid warm-grey, interior shadow */
+  --color-text-secondary-l: 0.52;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 16;
+
+  /* Border — dark red-brown, mineral seam */
+  --color-border-l: 0.16;
+  --color-border-c: 0.012;
+  --color-border-h: 14;
+}

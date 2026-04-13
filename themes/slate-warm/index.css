@@ -1,0 +1,37 @@
+/*
+ * slate-warm — Wild Agents
+ *
+ * Warm-toned medium-dark slate theme. Amber accent.
+ * Stone in afternoon shadow — balanced and grounded.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — amber, warm glint on stone */
+  --color-accent-l: 0.64;
+  --color-accent-c: 0.14;
+  --color-accent-h: 52;
+
+  /* Surface — warm-toned dark slate, afternoon stone */
+  --color-surface-l: 0.16;
+  --color-surface-c: 0.008;
+  --color-surface-h: 42;
+
+  /* Text — primary: warm off-white, last light on slate */
+  --color-text-primary-l: 0.91;
+  --color-text-primary-c: 0.007;
+  --color-text-primary-h: 48;
+
+  /* Text — secondary: mid warm-grey, stone shadow */
+  --color-text-secondary-l: 0.54;
+  --color-text-secondary-c: 0.006;
+  --color-text-secondary-h: 45;
+
+  /* Border — warm mid-slate, rock seam */
+  --color-border-l: 0.26;
+  --color-border-c: 0.007;
+  --color-border-h: 42;
+}

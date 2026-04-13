@@ -1,0 +1,37 @@
+/*
+ * merlot — Wild Agents
+ *
+ * Dark plum-red theme. Soft pink accent.
+ * Swirled glass — round, dark, complex.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — soft pink, wine legs on glass */
+  --color-accent-l: 0.70;
+  --color-accent-c: 0.12;
+  --color-accent-h: 354;
+
+  /* Surface — dark plum-red, wine in the glass */
+  --color-surface-l: 0.08;
+  --color-surface-c: 0.016;
+  --color-surface-h: 350;
+
+  /* Text — primary: warm near-white, crystal reflection */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.007;
+  --color-text-primary-h: 358;
+
+  /* Text — secondary: mid warm rose-grey, tannin shadow */
+  --color-text-secondary-l: 0.52;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 352;
+
+  /* Border — dark plum, glass stem */
+  --color-border-l: 0.15;
+  --color-border-c: 0.014;
+  --color-border-h: 350;
+}

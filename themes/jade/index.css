@@ -1,0 +1,37 @@
+/*
+ * jade — Wild Agents
+ *
+ * Cool-green light theme. Deep jade accent.
+ * Polished, precise, quietly luxurious — stone that endures.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — deep jade green, rich and grounded */
+  --color-accent-l: 0.48;
+  --color-accent-c: 0.16;
+  --color-accent-h: 168;
+
+  /* Surface — near-white with cool green breath */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.007;
+  --color-surface-h: 168;
+
+  /* Text — primary: dark cool green-grey, sharp contrast */
+  --color-text-primary-l: 0.14;
+  --color-text-primary-c: 0.012;
+  --color-text-primary-h: 170;
+
+  /* Text — secondary: mid green-grey, recedes naturally */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 168;
+
+  /* Border — light cool green, polished edge */
+  --color-border-l: 0.89;
+  --color-border-c: 0.008;
+  --color-border-h: 168;
+}

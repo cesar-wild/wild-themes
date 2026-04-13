@@ -1,0 +1,37 @@
+/*
+ * linen — Wild Agents
+ *
+ * Warm off-white light theme. Muted teal accent.
+ * Like reading on good paper — unhurried, easy, lasting.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — muted teal, quiet and authoritative */
+  --color-accent-l: 0.50;
+  --color-accent-c: 0.12;
+  --color-accent-h: 185;
+
+  /* Surface — warm off-white, aged linen texture */
+  --color-surface-l: 0.96;
+  --color-surface-c: 0.012;
+  --color-surface-h: 80;
+
+  /* Text — primary: warm dark brown, ink on paper */
+  --color-text-primary-l: 0.17;
+  --color-text-primary-c: 0.014;
+  --color-text-primary-h: 70;
+
+  /* Text — secondary: warm mid-grey, margin notes */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 72;
+
+  /* Border — warm beige, subtle page edge */
+  --color-border-l: 0.87;
+  --color-border-c: 0.010;
+  --color-border-h: 78;
+}

@@ -1,0 +1,37 @@
+/*
+ * frost-light — Wild Agents
+ *
+ * Pale icy light theme. Glacial blue accent.
+ * Clarity without warmth — cold air, sharp edges.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — glacial blue, ice-cap precision */
+  --color-accent-l: 0.50;
+  --color-accent-c: 0.18;
+  --color-accent-h: 222;
+
+  /* Surface — pale icy white, frozen window light */
+  --color-surface-l: 0.98;
+  --color-surface-c: 0.005;
+  --color-surface-h: 220;
+
+  /* Text — primary: dark cool grey, crisp shadow on ice */
+  --color-text-primary-l: 0.13;
+  --color-text-primary-c: 0.008;
+  --color-text-primary-h: 225;
+
+  /* Text — secondary: mid cool grey, recedes like fog */
+  --color-text-secondary-l: 0.43;
+  --color-text-secondary-c: 0.007;
+  --color-text-secondary-h: 222;
+
+  /* Border — icy pale grey, frost-line edges */
+  --color-border-l: 0.90;
+  --color-border-c: 0.005;
+  --color-border-h: 220;
+}

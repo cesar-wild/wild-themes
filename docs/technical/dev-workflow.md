@@ -6,7 +6,9 @@ This document describes how Wild Agents engineers develop, test, and ship Paperc
 
 ## Overview
 
-Paperclip themes are CSS files that override the platform's OKLCH design token variables. They are delivered as Paperclip plugins via the plugin SDK. The staging Paperclip instance at `http://5.223.73.101:8080` is our target deployment environment.
+Paperclip themes are CSS files that override the platform's OKLCH design token variables. They are delivered as Paperclip plugins via the plugin SDK. The dev Paperclip instance at `http://5.223.73.101:8081` is our target deployment environment.
+
+> **Warning:** Never deploy themes or plugins to the orchestration instance at `http://5.223.73.101:8080`. That instance runs company operations and is not expendable. All testing targets dev (`:8081`) only. Deploying to orchestration requires explicit board approval.
 
 ---
 
@@ -78,7 +80,7 @@ Paperclip exposes design tokens as CSS custom properties. Themes override these 
 }
 ```
 
-> **Token reference:** Check the existing proof-of-concept themes on staging (`http://5.223.73.101:8080`) for the full list of available tokens.
+> **Token reference:** Check the existing proof-of-concept themes on dev (`http://5.223.73.101:8081`) for the full list of available tokens.
 
 ---
 
@@ -116,7 +118,7 @@ This checks:
 bash scripts/deploy.sh themes/<your-theme-name>
 ```
 
-This uploads the theme to the Paperclip staging API. You can preview it immediately at `http://5.223.73.101:8080`.
+This uploads the theme to the Paperclip staging API. You can preview it immediately at `http://5.223.73.101:8081`.
 
 ### 5. Open a Pull Request
 
@@ -152,7 +154,8 @@ bash scripts/deploy.sh themes/<theme-name>
 
 ## Staging Reference
 
-- **Staging URL:** `http://5.223.73.101:8080`
+- **Dev URL:** `http://5.223.73.101:8081`
+- **Orchestration URL:** `http://5.223.73.101:8080` — **DO NOT deploy themes here**
 - **Existing POC themes:** Browse the theme gallery on staging for the 6 proof-of-concept themes. These serve as visual and token references.
 
 ---

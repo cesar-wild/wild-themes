@@ -78,7 +78,9 @@ wild-themes/
 
 - Node.js 18+
 - `gh` CLI authenticated as `cesar-wild`
-- Access to staging Paperclip: `http://5.223.73.101:8080`
+- Access to dev Paperclip: `http://5.223.73.101:8081`
+
+> **Warning:** Never deploy themes directly to the orchestration instance at `:8080`. That instance runs company operations. All theme and plugin testing must target the dev instance at `:8081`.
 
 ### Develop a theme
 
@@ -109,7 +111,7 @@ bash scripts/deploy.sh themes/my-theme
 bash scripts/deploy.sh themes/<theme-name>
 ```
 
-This uploads the theme to the Paperclip staging instance at `http://5.223.73.101:8080` via the plugin API.
+This uploads the theme to the Paperclip dev instance at `http://5.223.73.101:8081` via the plugin API.
 
 ---
 

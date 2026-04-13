@@ -1,0 +1,37 @@
+/*
+ * graphite — Wild Agents
+ *
+ * Medium-dark neutral grey theme. Warm off-white accent.
+ * Like writing on grey paper — muted, focused, nothing flashy.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — warm off-white, pencil-light highlight */
+  --color-accent-l: 0.88;
+  --color-accent-c: 0.006;
+  --color-accent-h: 60;
+
+  /* Surface — medium-dark neutral grey, graphite sheet */
+  --color-surface-l: 0.18;
+  --color-surface-c: 0.003;
+  --color-surface-h: 240;
+
+  /* Text — primary: near-white, clear on grey */
+  --color-text-primary-l: 0.92;
+  --color-text-primary-c: 0.004;
+  --color-text-primary-h: 240;
+
+  /* Text — secondary: mid light grey, recedes on the sheet */
+  --color-text-secondary-l: 0.60;
+  --color-text-secondary-c: 0.004;
+  --color-text-secondary-h: 240;
+
+  /* Border — slightly darker grey, drawn lines */
+  --color-border-l: 0.28;
+  --color-border-c: 0.004;
+  --color-border-h: 240;
+}

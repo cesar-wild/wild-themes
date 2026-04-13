@@ -1,0 +1,37 @@
+/*
+ * slate-dark — Wild Agents
+ *
+ * Cool dark grey theme. Muted periwinkle accent.
+ * Rock face, no fuss, dependable — built for the long shift.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — muted periwinkle, grey rock with colour */
+  --color-accent-l: 0.60;
+  --color-accent-c: 0.12;
+  --color-accent-h: 265;
+
+  /* Surface — cool dark grey, quarried slate */
+  --color-surface-l: 0.11;
+  --color-surface-c: 0.008;
+  --color-surface-h: 255;
+
+  /* Text — primary: cool off-white, clean contrast */
+  --color-text-primary-l: 0.92;
+  --color-text-primary-c: 0.006;
+  --color-text-primary-h: 255;
+
+  /* Text — secondary: mid cool grey, steps back */
+  --color-text-secondary-l: 0.54;
+  --color-text-secondary-c: 0.007;
+  --color-text-secondary-h: 258;
+
+  /* Border — dark cool grey, structural lines */
+  --color-border-l: 0.21;
+  --color-border-c: 0.007;
+  --color-border-h: 255;
+}

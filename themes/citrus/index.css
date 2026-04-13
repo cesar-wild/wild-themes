@@ -1,0 +1,37 @@
+/*
+ * citrus — Wild Agents
+ *
+ * Bright warm-white light theme. Vivid lime-yellow accent.
+ * Freshly cut — sharp, fragrant, alive.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid lime-yellow, citrus zest */
+  --color-accent-l: 0.72;
+  --color-accent-c: 0.20;
+  --color-accent-h: 100;
+
+  /* Surface — bright warm-white, pith of citrus */
+  --color-surface-l: 0.98;
+  --color-surface-c: 0.005;
+  --color-surface-h: 95;
+
+  /* Text — primary: deep warm-grey, rind contrast */
+  --color-text-primary-l: 0.13;
+  --color-text-primary-c: 0.010;
+  --color-text-primary-h: 98;
+
+  /* Text — secondary: mid warm-grey, fruit shadow */
+  --color-text-secondary-l: 0.45;
+  --color-text-secondary-c: 0.008;
+  --color-text-secondary-h: 96;
+
+  /* Border — pale warm-yellow, diffused light */
+  --color-border-l: 0.91;
+  --color-border-c: 0.005;
+  --color-border-h: 95;
+}

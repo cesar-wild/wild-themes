@@ -1,0 +1,37 @@
+/*
+ * ash-dark — Wild Agents
+ *
+ * Medium-dark cool neutral theme. Soft blue-white accent.
+ * Cold ash — what remains after the burn.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — soft blue-white, cooled ember glow */
+  --color-accent-l: 0.78;
+  --color-accent-c: 0.06;
+  --color-accent-h: 226;
+
+  /* Surface — medium-dark cool neutral, cold ash bed */
+  --color-surface-l: 0.14;
+  --color-surface-c: 0.004;
+  --color-surface-h: 228;
+
+  /* Text — primary: cool near-white, light from above */
+  --color-text-primary-l: 0.92;
+  --color-text-primary-c: 0.004;
+  --color-text-primary-h: 226;
+
+  /* Text — secondary: mid cool-grey, ash depth */
+  --color-text-secondary-l: 0.54;
+  --color-text-secondary-c: 0.004;
+  --color-text-secondary-h: 226;
+
+  /* Border — dark cool neutral, settled layer */
+  --color-border-l: 0.23;
+  --color-border-c: 0.004;
+  --color-border-h: 228;
+}

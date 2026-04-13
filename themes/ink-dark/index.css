@@ -1,0 +1,37 @@
+/*
+ * ink-dark — Wild Agents
+ *
+ * Deep neutral dark theme. Ink-black surfaces, pure white accent.
+ * Written in the dark — stark, deliberate, nothing wasted.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — near-white, maximum contrast signal */
+  --color-accent-l: 0.92;
+  --color-accent-c: 0.000;
+  --color-accent-h: 0;
+
+  /* Surface — ink black, pure depth */
+  --color-surface-l: 0.05;
+  --color-surface-c: 0.000;
+  --color-surface-h: 0;
+
+  /* Text — primary: clean white, stark and sharp */
+  --color-text-primary-l: 0.95;
+  --color-text-primary-c: 0.000;
+  --color-text-primary-h: 0;
+
+  /* Text — secondary: mid grey, clear hierarchy */
+  --color-text-secondary-l: 0.52;
+  --color-text-secondary-c: 0.000;
+  --color-text-secondary-h: 0;
+
+  /* Border — dark grey, division in the void */
+  --color-border-l: 0.18;
+  --color-border-c: 0.000;
+  --color-border-h: 0;
+}

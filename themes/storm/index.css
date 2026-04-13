@@ -1,0 +1,37 @@
+/*
+ * storm — Wild Agents
+ *
+ * Dark stormy grey theme. Electric yellow accent.
+ * Charged air before lightning — quiet, heavy, about to break.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — electric yellow, lightning flash */
+  --color-accent-l: 0.82;
+  --color-accent-c: 0.18;
+  --color-accent-h: 95;
+
+  /* Surface — dark storm-grey, overcast sky */
+  --color-surface-l: 0.11;
+  --color-surface-c: 0.005;
+  --color-surface-h: 240;
+
+  /* Text — primary: pale grey, visibility through the cloud */
+  --color-text-primary-l: 0.92;
+  --color-text-primary-c: 0.004;
+  --color-text-primary-h: 240;
+
+  /* Text — secondary: mid storm-grey, recedes into the weather */
+  --color-text-secondary-l: 0.54;
+  --color-text-secondary-c: 0.005;
+  --color-text-secondary-h: 240;
+
+  /* Border — dark grey, pressure lines */
+  --color-border-l: 0.21;
+  --color-border-c: 0.005;
+  --color-border-h: 240;
+}
