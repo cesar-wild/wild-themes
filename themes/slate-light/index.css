@@ -1,0 +1,37 @@
+/*
+ * slate-light — Wild Agents
+ *
+ * Cool-grey light theme. Slate-blue accent.
+ * Professional, restrained, precise — built for long hours.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — slate blue, authoritative and clear */
+  --color-accent-l: 0.50;
+  --color-accent-c: 0.15;
+  --color-accent-h: 255;
+
+  /* Surface — near-white cool grey, clinical clarity */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.006;
+  --color-surface-h: 250;
+
+  /* Text — primary: dark cool slate, sharp contrast */
+  --color-text-primary-l: 0.15;
+  --color-text-primary-c: 0.010;
+  --color-text-primary-h: 250;
+
+  /* Text — secondary: mid cool grey, professional recession */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.008;
+  --color-text-secondary-h: 250;
+
+  /* Border — light cool grey, structural lines */
+  --color-border-l: 0.88;
+  --color-border-c: 0.006;
+  --color-border-h: 250;
+}
