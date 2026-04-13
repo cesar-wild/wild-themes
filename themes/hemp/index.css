@@ -1,0 +1,37 @@
+/*
+ * hemp — Wild Agents
+ *
+ * Neutral warm-beige light theme. Muted olive accent.
+ * Undyed cloth — honest, plain, unglamorous.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — muted olive, woven thread */
+  --color-accent-l: 0.50;
+  --color-accent-c: 0.08;
+  --color-accent-h: 108;
+
+  /* Surface — warm beige-white, undyed cloth */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.006;
+  --color-surface-h: 80;
+
+  /* Text — primary: deep warm-brown, natural dye */
+  --color-text-primary-l: 0.14;
+  --color-text-primary-c: 0.010;
+  --color-text-primary-h: 76;
+
+  /* Text — secondary: mid warm-tan, warp shadow */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.007;
+  --color-text-secondary-h: 78;
+
+  /* Border — pale warm-beige, weft line */
+  --color-border-l: 0.89;
+  --color-border-c: 0.006;
+  --color-border-h: 78;
+}

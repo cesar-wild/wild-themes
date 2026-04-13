@@ -1,0 +1,37 @@
+/*
+ * jasper — Wild Agents
+ *
+ * Warm dark red-orange theme. Vivid amber accent.
+ * Polished stone — opaque, warm, grounded.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid amber, polished face light */
+  --color-accent-l: 0.66;
+  --color-accent-c: 0.18;
+  --color-accent-h: 48;
+
+  /* Surface — warm dark red-orange, raw jasper */
+  --color-surface-l: 0.11;
+  --color-surface-c: 0.016;
+  --color-surface-h: 22;
+
+  /* Text — primary: warm off-white, oxide light */
+  --color-text-primary-l: 0.92;
+  --color-text-primary-c: 0.009;
+  --color-text-primary-h: 36;
+
+  /* Text — secondary: mid warm red-grey, banded shadow */
+  --color-text-secondary-l: 0.52;
+  --color-text-secondary-c: 0.012;
+  --color-text-secondary-h: 28;
+
+  /* Border — dark red-orange, stone band */
+  --color-border-l: 0.19;
+  --color-border-c: 0.014;
+  --color-border-h: 22;
+}
