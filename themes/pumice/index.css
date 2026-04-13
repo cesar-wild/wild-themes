@@ -1,0 +1,37 @@
+/*
+ * pumice — Wild Agents
+ *
+ * Pale warm-grey light theme. Muted terracotta accent.
+ * Volcanic powder — lightweight, porous, textured.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — muted terracotta, volcanic mineral */
+  --color-accent-l: 0.52;
+  --color-accent-c: 0.10;
+  --color-accent-h: 28;
+
+  /* Surface — pale warm-grey, pumice dust */
+  --color-surface-l: 0.96;
+  --color-surface-c: 0.004;
+  --color-surface-h: 50;
+
+  /* Text — primary: deep warm-grey, stone contrast */
+  --color-text-primary-l: 0.15;
+  --color-text-primary-c: 0.007;
+  --color-text-primary-h: 40;
+
+  /* Text — secondary: mid warm-grey, porous shadow */
+  --color-text-secondary-l: 0.48;
+  --color-text-secondary-c: 0.005;
+  --color-text-secondary-h: 40;
+
+  /* Border — pale warm-grey, light texture */
+  --color-border-l: 0.87;
+  --color-border-c: 0.004;
+  --color-border-h: 48;
+}
