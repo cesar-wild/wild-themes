@@ -1,0 +1,8 @@
+{
+  "id": "paper",
+  "name": "Paper",
+  "description": "Minimal warm-light theme. Parchment whites, ink-dark text. Like writing on good paper.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": ["light", "minimal", "warm"]
+}

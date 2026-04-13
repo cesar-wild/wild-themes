@@ -1,0 +1,37 @@
+/*
+ * paper — Wild Agents
+ *
+ * Minimal warm-light theme. Parchment whites, ink-dark text.
+ * Like writing on good paper — the content is all that matters.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — warm amber, restrained — a good pen nib */
+  --color-accent-l: 0.58;
+  --color-accent-c: 0.14;
+  --color-accent-h: 65;
+
+  /* Surface — warm parchment, barely cream */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.012;
+  --color-surface-h: 82;
+
+  /* Text — primary: dark ink, warm brown-black */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.022;
+  --color-text-primary-h: 65;
+
+  /* Text — secondary: medium warm grey, marginalia */
+  --color-text-secondary-l: 0.48;
+  --color-text-secondary-c: 0.018;
+  --color-text-secondary-h: 68;
+
+  /* Border — warm off-white, lines like ruled paper */
+  --color-border-l: 0.88;
+  --color-border-c: 0.010;
+  --color-border-h: 75;
+}

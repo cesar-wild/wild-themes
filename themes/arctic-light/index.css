@@ -1,0 +1,37 @@
+/*
+ * arctic-light — Wild Agents
+ *
+ * Crisp light theme. Ice-blue surfaces, deep ocean accent.
+ * Minimal clarity in cold air — nothing clutters the view.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — deep ocean blue, confident and clear */
+  --color-accent-l: 0.52;
+  --color-accent-c: 0.20;
+  --color-accent-h: 238;
+
+  /* Surface — near-white, barely-cool, like morning ice */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.006;
+  --color-surface-h: 228;
+
+  /* Text — primary: deep cool slate, crisp readability */
+  --color-text-primary-l: 0.14;
+  --color-text-primary-c: 0.012;
+  --color-text-primary-h: 242;
+
+  /* Text — secondary: mid-tone grey-blue, recedes cleanly */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 238;
+
+  /* Border — light cool grey, thin lines only */
+  --color-border-l: 0.88;
+  --color-border-c: 0.006;
+  --color-border-h: 228;
+}

@@ -1,0 +1,37 @@
+/*
+ * obsidian — Wild Agents
+ *
+ * High-contrast dark theme. True black, electric cyan.
+ * Nothing hides — every edge cuts clean against the void.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — electric cyan, voltaic and sharp */
+  --color-accent-l: 0.78;
+  --color-accent-c: 0.22;
+  --color-accent-h: 198;
+
+  /* Surface — true black with the faintest cool ghost */
+  --color-surface-l: 0.06;
+  --color-surface-c: 0.005;
+  --color-surface-h: 260;
+
+  /* Text — primary: near-pure white, maximum contrast */
+  --color-text-primary-l: 0.98;
+  --color-text-primary-c: 0.004;
+  --color-text-primary-h: 200;
+
+  /* Text — secondary: vivid mid-grey, still readable at a glance */
+  --color-text-secondary-l: 0.65;
+  --color-text-secondary-c: 0.008;
+  --color-text-secondary-h: 260;
+
+  /* Border — dark with a hint of blue, deliberate lines */
+  --color-border-l: 0.20;
+  --color-border-c: 0.015;
+  --color-border-h: 260;
+}

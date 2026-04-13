@@ -1,0 +1,37 @@
+/*
+ * neon-night — Wild Agents
+ *
+ * Dark purple night, neon green pulse.
+ * City after rain. The asphalt glows and the work never stops.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — neon green, like a sign reflected in wet concrete */
+  --color-accent-l: 0.82;
+  --color-accent-c: 0.26;
+  --color-accent-h: 142;
+
+  /* Surface — deep violet-grey, night sky near city lights */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.020;
+  --color-surface-h: 282;
+
+  /* Text — primary: cold near-white, violet ghost */
+  --color-text-primary-l: 0.94;
+  --color-text-primary-c: 0.006;
+  --color-text-primary-h: 285;
+
+  /* Text — secondary: muted lavender grey, distant neon blur */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.016;
+  --color-text-secondary-h: 282;
+
+  /* Border — dark purple, structural lines under the glow */
+  --color-border-l: 0.20;
+  --color-border-c: 0.026;
+  --color-border-h: 282;
+}

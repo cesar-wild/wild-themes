@@ -1,0 +1,37 @@
+/*
+ * sage — Wild Agents
+ *
+ * Light nature theme. Soft greens, forest-ink text.
+ * Calm focus, like working under the canopy on a clear day.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — sage green, living and sure */
+  --color-accent-l: 0.50;
+  --color-accent-c: 0.13;
+  --color-accent-h: 155;
+
+  /* Surface — barely-green off-white, morning light through leaves */
+  --color-surface-l: 0.96;
+  --color-surface-c: 0.008;
+  --color-surface-h: 150;
+
+  /* Text — primary: deep forest, dark and grounded */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.022;
+  --color-text-primary-h: 158;
+
+  /* Text — secondary: grey-green, bark and shadow */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.014;
+  --color-text-secondary-h: 155;
+
+  /* Border — soft sage grey, like the edge of a meadow */
+  --color-border-l: 0.87;
+  --color-border-c: 0.010;
+  --color-border-h: 150;
+}
