@@ -1,0 +1,37 @@
+/*
+ * pistachio — Wild Agents
+ *
+ * Fresh warm-green light theme. Pistachio green accent.
+ * Spring air, new growth — alive and unhurried.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — pistachio green, fresh and grounded */
+  --color-accent-l: 0.55;
+  --color-accent-c: 0.14;
+  --color-accent-h: 135;
+
+  /* Surface — pale warm green-white, new leaf light */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.008;
+  --color-surface-h: 130;
+
+  /* Text — primary: deep warm green-brown, bark and soil */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.014;
+  --color-text-primary-h: 140;
+
+  /* Text — secondary: mid muted green, recedes naturally */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 135;
+
+  /* Border — pale green, morning dew edge */
+  --color-border-l: 0.89;
+  --color-border-c: 0.008;
+  --color-border-h: 130;
+}
