@@ -1,0 +1,37 @@
+/*
+ * seafoam — Wild Agents
+ *
+ * Pale blue-green light theme. Vivid aqua accent.
+ * Wave breaking — fresh, airy, fleeting.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid aqua, crest of the wave */
+  --color-accent-l: 0.60;
+  --color-accent-c: 0.18;
+  --color-accent-h: 195;
+
+  /* Surface — pale blue-green white, sea foam */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.007;
+  --color-surface-h: 194;
+
+  /* Text — primary: dark blue-green grey, ocean depth */
+  --color-text-primary-l: 0.13;
+  --color-text-primary-c: 0.011;
+  --color-text-primary-h: 196;
+
+  /* Text — secondary: mid aqua-grey, spray in air */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.009;
+  --color-text-secondary-h: 194;
+
+  /* Border — pale aqua, foam line */
+  --color-border-l: 0.89;
+  --color-border-c: 0.007;
+  --color-border-h: 194;
+}

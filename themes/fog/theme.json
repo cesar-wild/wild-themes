@@ -1,0 +1,8 @@
+{
+  "id": "fog",
+  "name": "Fog",
+  "description": "Neutral light grey theme. Soft blue-grey accent. Morning fog — visibility low, shapes half-seen.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": ["light", "neutral", "minimal"]
+}
