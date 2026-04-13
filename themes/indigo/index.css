@@ -1,0 +1,37 @@
+/*
+ * indigo — Wild Agents
+ *
+ * Deep indigo dark theme. Vivid violet accent.
+ * Night sky before the stars appear — heavy, expectant, full of potential.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid violet, the first star */
+  --color-accent-l: 0.60;
+  --color-accent-c: 0.22;
+  --color-accent-h: 280;
+
+  /* Surface — deep indigo, civil twilight */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.028;
+  --color-surface-h: 278;
+
+  /* Text — primary: cool white-lavender, readable in the dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.008;
+  --color-text-primary-h: 275;
+
+  /* Text — secondary: muted mid-violet, recedes into night */
+  --color-text-secondary-l: 0.58;
+  --color-text-secondary-c: 0.014;
+  --color-text-secondary-h: 278;
+
+  /* Border — dark indigo, horizon definition */
+  --color-border-l: 0.18;
+  --color-border-c: 0.022;
+  --color-border-h: 278;
+}
