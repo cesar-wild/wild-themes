@@ -1,0 +1,37 @@
+/*
+ * desert — Wild Agents
+ *
+ * Warm sandy light theme. Terracotta accent, sun-bleached surfaces.
+ * Grounded and calm — the quiet before the hunt.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — terracotta, warm and grounded */
+  --color-accent-l: 0.55;
+  --color-accent-c: 0.15;
+  --color-accent-h: 35;
+
+  /* Surface — sandy off-white, sun-warmed */
+  --color-surface-l: 0.96;
+  --color-surface-c: 0.014;
+  --color-surface-h: 75;
+
+  /* Text — primary: deep warm brown, solid readability */
+  --color-text-primary-l: 0.18;
+  --color-text-primary-c: 0.015;
+  --color-text-primary-h: 60;
+
+  /* Text — secondary: mid warm grey, recedes naturally */
+  --color-text-secondary-l: 0.45;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 60;
+
+  /* Border — light warm beige, barely visible */
+  --color-border-l: 0.87;
+  --color-border-c: 0.010;
+  --color-border-h: 75;
+}

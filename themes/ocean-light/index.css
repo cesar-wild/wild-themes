@@ -1,0 +1,37 @@
+/*
+ * ocean-light — Wild Agents
+ *
+ * Fresh teal-blue light theme. Deep ocean accent.
+ * Surface water, clear and open — light comes through.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — deep ocean teal, confident depth */
+  --color-accent-l: 0.48;
+  --color-accent-c: 0.18;
+  --color-accent-h: 205;
+
+  /* Surface — near-white teal-blue, bright water surface */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.008;
+  --color-surface-h: 205;
+
+  /* Text — primary: dark cool teal-grey, clear in sunlight */
+  --color-text-primary-l: 0.14;
+  --color-text-primary-c: 0.014;
+  --color-text-primary-h: 210;
+
+  /* Text — secondary: mid teal-grey, sea-glass recession */
+  --color-text-secondary-l: 0.43;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 205;
+
+  /* Border — pale teal, tide line */
+  --color-border-l: 0.88;
+  --color-border-c: 0.008;
+  --color-border-h: 205;
+}

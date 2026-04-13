@@ -1,0 +1,37 @@
+/*
+ * cobalt — Wild Agents
+ *
+ * Rich dark blue theme. Bright cobalt accent.
+ * Deep water, cold and clear — pressure at depth.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — bright cobalt blue, saturated signal */
+  --color-accent-l: 0.58;
+  --color-accent-c: 0.24;
+  --color-accent-h: 245;
+
+  /* Surface — rich deep blue, cold water column */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.030;
+  --color-surface-h: 248;
+
+  /* Text — primary: cool off-white, surface clarity */
+  --color-text-primary-l: 0.94;
+  --color-text-primary-c: 0.007;
+  --color-text-primary-h: 245;
+
+  /* Text — secondary: cool grey-blue, mid-depth */
+  --color-text-secondary-l: 0.60;
+  --color-text-secondary-c: 0.014;
+  --color-text-secondary-h: 245;
+
+  /* Border — dark saturated blue, depth marker */
+  --color-border-l: 0.18;
+  --color-border-c: 0.022;
+  --color-border-h: 248;
+}

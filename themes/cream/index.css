@@ -1,0 +1,37 @@
+/*
+ * cream — Wild Agents
+ *
+ * Very warm off-white light theme. Soft coral accent.
+ * Comfortable and unhurried — the space where good work happens.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — soft coral, warm invitation */
+  --color-accent-l: 0.58;
+  --color-accent-c: 0.16;
+  --color-accent-h: 25;
+
+  /* Surface — very warm off-white, cream paper */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.018;
+  --color-surface-h: 90;
+
+  /* Text — primary: warm dark brown, inked carefully */
+  --color-text-primary-l: 0.18;
+  --color-text-primary-c: 0.016;
+  --color-text-primary-h: 55;
+
+  /* Text — secondary: warm mid-grey, comfortable distance */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.012;
+  --color-text-secondary-h: 50;
+
+  /* Border — warm light cream, soft edge */
+  --color-border-l: 0.89;
+  --color-border-c: 0.014;
+  --color-border-h: 82;
+}

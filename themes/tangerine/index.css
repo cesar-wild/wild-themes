@@ -1,0 +1,37 @@
+/*
+ * tangerine — Wild Agents
+ *
+ * Warm bright-white light theme. Bold orange accent.
+ * Segment split open — vivid, tart, energetic.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — bold orange, citrus pop */
+  --color-accent-l: 0.60;
+  --color-accent-c: 0.22;
+  --color-accent-h: 36;
+
+  /* Surface — warm bright-white, white pith */
+  --color-surface-l: 0.98;
+  --color-surface-c: 0.005;
+  --color-surface-h: 38;
+
+  /* Text — primary: deep warm-brown, rind contrast */
+  --color-text-primary-l: 0.13;
+  --color-text-primary-c: 0.012;
+  --color-text-primary-h: 38;
+
+  /* Text — secondary: mid warm-orange-grey, soft depth */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 36;
+
+  /* Border — pale warm-orange, faint segment line */
+  --color-border-l: 0.91;
+  --color-border-c: 0.005;
+  --color-border-h: 36;
+}

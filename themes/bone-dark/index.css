@@ -1,0 +1,37 @@
+/*
+ * bone-dark — Wild Agents
+ *
+ * Warm medium-dark brown-grey theme. Pale gold accent.
+ * Old artifact — preserved, dried, enduring.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — pale gold, mineral highlight */
+  --color-accent-l: 0.72;
+  --color-accent-c: 0.10;
+  --color-accent-h: 70;
+
+  /* Surface — warm medium-dark brown-grey, dried bone */
+  --color-surface-l: 0.15;
+  --color-surface-c: 0.010;
+  --color-surface-h: 58;
+
+  /* Text — primary: warm off-white, light on ivory */
+  --color-text-primary-l: 0.91;
+  --color-text-primary-c: 0.008;
+  --color-text-primary-h: 64;
+
+  /* Text — secondary: mid warm-tan, aged density */
+  --color-text-secondary-l: 0.52;
+  --color-text-secondary-c: 0.008;
+  --color-text-secondary-h: 60;
+
+  /* Border — dark warm brown-grey, artifact crack */
+  --color-border-l: 0.24;
+  --color-border-c: 0.009;
+  --color-border-h: 58;
+}

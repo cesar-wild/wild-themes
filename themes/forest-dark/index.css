@@ -1,0 +1,37 @@
+/*
+ * forest-dark — Wild Agents
+ *
+ * Deep forest green dark theme. Emerald accent.
+ * Eyes down, deep in the trees — quiet and focused.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — bright emerald, life in the dark */
+  --color-accent-l: 0.55;
+  --color-accent-c: 0.20;
+  --color-accent-h: 155;
+
+  /* Surface — very dark forest, canopy overhead */
+  --color-surface-l: 0.07;
+  --color-surface-c: 0.018;
+  --color-surface-h: 145;
+
+  /* Text — primary: warm off-white, readable in the forest */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.006;
+  --color-text-primary-h: 140;
+
+  /* Text — secondary: muted sage, recedes into the undergrowth */
+  --color-text-secondary-l: 0.58;
+  --color-text-secondary-c: 0.012;
+  --color-text-secondary-h: 148;
+
+  /* Border — dark muted green, tree-line definition */
+  --color-border-l: 0.18;
+  --color-border-c: 0.014;
+  --color-border-h: 145;
+}

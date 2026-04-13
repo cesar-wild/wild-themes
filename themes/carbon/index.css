@@ -1,0 +1,37 @@
+/*
+ * carbon — Wild Agents
+ *
+ * True dark neutral theme. Bright cyan accent.
+ * High-tech, no warmth, built for output — terminal energy.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — bright cyan, cathode glow */
+  --color-accent-l: 0.70;
+  --color-accent-c: 0.20;
+  --color-accent-h: 200;
+
+  /* Surface — true dark neutral, carbon fibre */
+  --color-surface-l: 0.10;
+  --color-surface-c: 0.002;
+  --color-surface-h: 200;
+
+  /* Text — primary: near-white, screen-sharp */
+  --color-text-primary-l: 0.94;
+  --color-text-primary-c: 0.003;
+  --color-text-primary-h: 200;
+
+  /* Text — secondary: mid neutral grey, system font weight */
+  --color-text-secondary-l: 0.54;
+  --color-text-secondary-c: 0.004;
+  --color-text-secondary-h: 200;
+
+  /* Border — dark grey, grid lines */
+  --color-border-l: 0.20;
+  --color-border-c: 0.003;
+  --color-border-h: 200;
+}

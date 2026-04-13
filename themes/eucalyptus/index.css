@@ -1,0 +1,37 @@
+/*
+ * eucalyptus — Wild Agents
+ *
+ * Cool blue-green light theme. Muted silver-green accent.
+ * Gum tree — dry air, silver leaf, distant hills.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — muted silver-green, gum leaf */
+  --color-accent-l: 0.52;
+  --color-accent-c: 0.08;
+  --color-accent-h: 175;
+
+  /* Surface — cool blue-green white, morning haze */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.005;
+  --color-surface-h: 172;
+
+  /* Text — primary: deep cool green-grey, bark depth */
+  --color-text-primary-l: 0.14;
+  --color-text-primary-c: 0.008;
+  --color-text-primary-h: 174;
+
+  /* Text — secondary: mid cool silver-grey, leaf mist */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.006;
+  --color-text-secondary-h: 172;
+
+  /* Border — pale blue-green, distant ridge */
+  --color-border-l: 0.89;
+  --color-border-c: 0.005;
+  --color-border-h: 172;
+}

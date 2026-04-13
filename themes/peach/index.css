@@ -1,0 +1,37 @@
+/*
+ * peach — Wild Agents
+ *
+ * Warm soft pink-orange light theme. Coral accent.
+ * Ripe fruit in afternoon light — tender and sweet.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — coral, warm vivid pop */
+  --color-accent-l: 0.58;
+  --color-accent-c: 0.18;
+  --color-accent-h: 22;
+
+  /* Surface — soft warm blush-white, peach skin */
+  --color-surface-l: 0.98;
+  --color-surface-c: 0.007;
+  --color-surface-h: 26;
+
+  /* Text — primary: deep warm brown, pit of the fruit */
+  --color-text-primary-l: 0.15;
+  --color-text-primary-c: 0.012;
+  --color-text-primary-h: 28;
+
+  /* Text — secondary: warm mid-brown, afternoon dust */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 24;
+
+  /* Border — pale warm blush, fuzz on the skin */
+  --color-border-l: 0.90;
+  --color-border-c: 0.006;
+  --color-border-h: 24;
+}

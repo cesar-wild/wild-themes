@@ -1,0 +1,37 @@
+/*
+ * denim — Wild Agents
+ *
+ * Medium-dark indigo-blue theme. Bright blue accent.
+ * Worn fabric — faded, comfortable, familiar.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — bright blue, fresh denim thread */
+  --color-accent-l: 0.62;
+  --color-accent-c: 0.20;
+  --color-accent-h: 236;
+
+  /* Surface — medium-dark indigo, worn denim face */
+  --color-surface-l: 0.20;
+  --color-surface-c: 0.020;
+  --color-surface-h: 240;
+
+  /* Text — primary: pale blue-white, bleached thread */
+  --color-text-primary-l: 0.92;
+  --color-text-primary-c: 0.007;
+  --color-text-primary-h: 238;
+
+  /* Text — secondary: mid indigo-grey, worn fade */
+  --color-text-secondary-l: 0.58;
+  --color-text-secondary-c: 0.012;
+  --color-text-secondary-h: 238;
+
+  /* Border — deep indigo, seam line */
+  --color-border-l: 0.30;
+  --color-border-c: 0.018;
+  --color-border-h: 240;
+}

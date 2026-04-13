@@ -1,0 +1,37 @@
+/*
+ * opal — Wild Agents
+ *
+ * Pale iridescent light theme. Shifting violet-pink accent.
+ * Play of color — delicate, prismatic, elusive.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — violet-pink, flash of color in opal */
+  --color-accent-l: 0.55;
+  --color-accent-c: 0.14;
+  --color-accent-h: 308;
+
+  /* Surface — pale iridescent white, polished face */
+  --color-surface-l: 0.98;
+  --color-surface-c: 0.004;
+  --color-surface-h: 300;
+
+  /* Text — primary: deep cool grey, matrix contrast */
+  --color-text-primary-l: 0.13;
+  --color-text-primary-c: 0.008;
+  --color-text-primary-h: 306;
+
+  /* Text — secondary: mid lavender-grey, silica depth */
+  --color-text-secondary-l: 0.45;
+  --color-text-secondary-c: 0.006;
+  --color-text-secondary-h: 304;
+
+  /* Border — pale lilac-white, light diffusion edge */
+  --color-border-l: 0.90;
+  --color-border-c: 0.004;
+  --color-border-h: 302;
+}

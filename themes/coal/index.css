@@ -1,0 +1,37 @@
+/*
+ * coal — Wild Agents
+ *
+ * Very dark warm-black theme. Electric orange accent.
+ * Mined deep — raw material, raw power, no refinement needed.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — electric orange, spark in the seam */
+  --color-accent-l: 0.65;
+  --color-accent-c: 0.22;
+  --color-accent-h: 42;
+
+  /* Surface — very dark warm-black, coal face */
+  --color-surface-l: 0.06;
+  --color-surface-c: 0.010;
+  --color-surface-h: 38;
+
+  /* Text — primary: warm off-white, headlamp beam */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.008;
+  --color-text-primary-h: 55;
+
+  /* Text — secondary: warm mid-grey, dust in the air */
+  --color-text-secondary-l: 0.54;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 45;
+
+  /* Border — dark warm-black, seam lines */
+  --color-border-l: 0.15;
+  --color-border-c: 0.010;
+  --color-border-h: 38;
+}

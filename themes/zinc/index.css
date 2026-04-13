@@ -1,0 +1,37 @@
+/*
+ * zinc — Wild Agents
+ *
+ * Cool medium-grey dark theme. Bright cyan accent.
+ * Industrial metal — utilitarian, steady, functional.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — bright cyan, coated metal flash */
+  --color-accent-l: 0.70;
+  --color-accent-c: 0.16;
+  --color-accent-h: 200;
+
+  /* Surface — cool medium-grey, galvanized surface */
+  --color-surface-l: 0.16;
+  --color-surface-c: 0.004;
+  --color-surface-h: 222;
+
+  /* Text — primary: cool near-white, inspection light */
+  --color-text-primary-l: 0.92;
+  --color-text-primary-c: 0.003;
+  --color-text-primary-h: 220;
+
+  /* Text — secondary: mid cool-grey, floor shadow */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.003;
+  --color-text-secondary-h: 220;
+
+  /* Border — dark grey, panel edge */
+  --color-border-l: 0.25;
+  --color-border-c: 0.003;
+  --color-border-h: 222;
+}

@@ -1,0 +1,37 @@
+/*
+ * mauve — Wild Agents
+ *
+ * Muted warm-purple light theme. Soft rose-purple accent.
+ * Old velvet — faded, dignified, still beautiful.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — soft rose-purple, velvet pile */
+  --color-accent-l: 0.52;
+  --color-accent-c: 0.12;
+  --color-accent-h: 330;
+
+  /* Surface — muted warm-purple white, faded silk */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.005;
+  --color-surface-h: 326;
+
+  /* Text — primary: deep warm-purple grey, aged ink */
+  --color-text-primary-l: 0.15;
+  --color-text-primary-c: 0.008;
+  --color-text-primary-h: 328;
+
+  /* Text — secondary: mid muted rose-grey, dust on velvet */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.006;
+  --color-text-secondary-h: 326;
+
+  /* Border — pale muted rose, frayed hem */
+  --color-border-l: 0.89;
+  --color-border-c: 0.005;
+  --color-border-h: 326;
+}

@@ -1,0 +1,37 @@
+/*
+ * sunset — Wild Agents
+ *
+ * Warm cream light theme. Deep orange accent.
+ * The sky before dark — bold and unhurried.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — deep orange, the last hour of light */
+  --color-accent-l: 0.58;
+  --color-accent-c: 0.20;
+  --color-accent-h: 45;
+
+  /* Surface — warm cream, sun-warmed paper */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.010;
+  --color-surface-h: 55;
+
+  /* Text — primary: dark warm brown, grounded */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.015;
+  --color-text-primary-h: 50;
+
+  /* Text — secondary: warm mid-brown, gentle recession */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.012;
+  --color-text-secondary-h: 45;
+
+  /* Border — warm cream edge, barely there */
+  --color-border-l: 0.88;
+  --color-border-c: 0.012;
+  --color-border-h: 55;
+}

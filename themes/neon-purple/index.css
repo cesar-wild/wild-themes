@@ -1,0 +1,37 @@
+/*
+ * neon-purple — Wild Agents
+ *
+ * Near-black dark theme. Vivid neon purple accent.
+ * Late-night city, sign-lit rain — electric and alive at 3am.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid neon purple, sign-lit signal */
+  --color-accent-l: 0.62;
+  --color-accent-c: 0.28;
+  --color-accent-h: 295;
+
+  /* Surface — near-black, wet asphalt */
+  --color-surface-l: 0.07;
+  --color-surface-c: 0.008;
+  --color-surface-h: 295;
+
+  /* Text — primary: near-white, screen-burn clarity */
+  --color-text-primary-l: 0.94;
+  --color-text-primary-c: 0.006;
+  --color-text-primary-h: 295;
+
+  /* Text — secondary: muted purple-grey, neon reflection */
+  --color-text-secondary-l: 0.56;
+  --color-text-secondary-c: 0.012;
+  --color-text-secondary-h: 292;
+
+  /* Border — dark with purple tint, wet pavement */
+  --color-border-l: 0.16;
+  --color-border-c: 0.010;
+  --color-border-h: 295;
+}

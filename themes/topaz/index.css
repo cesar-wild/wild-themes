@@ -1,0 +1,37 @@
+/*
+ * topaz — Wild Agents
+ *
+ * Clear warm-yellow light theme. Vivid golden accent.
+ * Cut gemstone — transparent, brilliant, precise.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid golden, faceted gem face */
+  --color-accent-l: 0.68;
+  --color-accent-c: 0.18;
+  --color-accent-h: 72;
+
+  /* Surface — clear warm-yellow white, light through topaz */
+  --color-surface-l: 0.98;
+  --color-surface-c: 0.006;
+  --color-surface-h: 76;
+
+  /* Text — primary: deep warm-brown, gem depth */
+  --color-text-primary-l: 0.13;
+  --color-text-primary-c: 0.012;
+  --color-text-primary-h: 72;
+
+  /* Text — secondary: mid warm-yellow-grey, diffused light */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.009;
+  --color-text-secondary-h: 72;
+
+  /* Border — pale warm-yellow, gem edge */
+  --color-border-l: 0.91;
+  --color-border-c: 0.005;
+  --color-border-h: 74;
+}

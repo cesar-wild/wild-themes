@@ -1,0 +1,37 @@
+/*
+ * bone — Wild Agents
+ *
+ * Warm off-white light theme. Dusty brown accent.
+ * Desert bleached, ancient and enduring — stripped to what matters.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — dusty brown, sun-dried earth */
+  --color-accent-l: 0.50;
+  --color-accent-c: 0.10;
+  --color-accent-h: 55;
+
+  /* Surface — bone white, sun-bleached calm */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.016;
+  --color-surface-h: 88;
+
+  /* Text — primary: dark warm brown, etched shadow */
+  --color-text-primary-l: 0.18;
+  --color-text-primary-c: 0.016;
+  --color-text-primary-h: 65;
+
+  /* Text — secondary: muted dusty tan, fades back */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.012;
+  --color-text-secondary-h: 62;
+
+  /* Border — warm light tan, dry-land edge */
+  --color-border-l: 0.88;
+  --color-border-c: 0.014;
+  --color-border-h: 82;
+}

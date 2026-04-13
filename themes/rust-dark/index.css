@@ -1,0 +1,37 @@
+/*
+ * rust-dark — Wild Agents
+ *
+ * Warm near-black dark theme. Deep rust-orange accent.
+ * Industrial weight. Raw and unapologetic — built in the forge.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — rust orange, glowing embers */
+  --color-accent-l: 0.58;
+  --color-accent-c: 0.18;
+  --color-accent-h: 35;
+
+  /* Surface — near-black with a warm undertone */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.012;
+  --color-surface-h: 30;
+
+  /* Text — primary: warm off-white, comfortable in the dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.010;
+  --color-text-primary-h: 50;
+
+  /* Text — secondary: warm mid-grey, fades back */
+  --color-text-secondary-l: 0.58;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 40;
+
+  /* Border — dark warm, structure without shine */
+  --color-border-l: 0.20;
+  --color-border-c: 0.010;
+  --color-border-h: 30;
+}

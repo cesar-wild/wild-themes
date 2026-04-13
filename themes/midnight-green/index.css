@@ -1,0 +1,37 @@
+/*
+ * midnight-green — Wild Agents
+ *
+ * Very dark green theme. Vivid mint accent.
+ * Deep rainforest at 2am — alive and watching.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid mint, nocturnal bioluminescence */
+  --color-accent-l: 0.68;
+  --color-accent-c: 0.20;
+  --color-accent-h: 162;
+
+  /* Surface — very dark green, canopy before dawn */
+  --color-surface-l: 0.07;
+  --color-surface-c: 0.022;
+  --color-surface-h: 160;
+
+  /* Text — primary: cool off-white, clear in the dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.006;
+  --color-text-primary-h: 160;
+
+  /* Text — secondary: muted cool green-grey, recedes */
+  --color-text-secondary-l: 0.56;
+  --color-text-secondary-c: 0.012;
+  --color-text-secondary-h: 162;
+
+  /* Border — dark forest green, vine-shadow lines */
+  --color-border-l: 0.16;
+  --color-border-c: 0.018;
+  --color-border-h: 160;
+}

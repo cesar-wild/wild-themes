@@ -1,0 +1,37 @@
+/*
+ * pitch — Wild Agents
+ *
+ * Near-absolute dark neutral theme. Bright green accent.
+ * Tar black — total dark, only the signal shines.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — bright terminal green, signal in the black */
+  --color-accent-l: 0.70;
+  --color-accent-c: 0.22;
+  --color-accent-h: 142;
+
+  /* Surface — near-absolute dark, tar black */
+  --color-surface-l: 0.04;
+  --color-surface-c: 0.002;
+  --color-surface-h: 240;
+
+  /* Text — primary: near-white, pure readability */
+  --color-text-primary-l: 0.95;
+  --color-text-primary-c: 0.002;
+  --color-text-primary-h: 240;
+
+  /* Text — secondary: mid neutral grey, secondary signal */
+  --color-text-secondary-l: 0.48;
+  --color-text-secondary-c: 0.002;
+  --color-text-secondary-h: 240;
+
+  /* Border — very dark, barely perceptible edge */
+  --color-border-l: 0.11;
+  --color-border-c: 0.002;
+  --color-border-h: 240;
+}

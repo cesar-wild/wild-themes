@@ -1,0 +1,37 @@
+/*
+ * ocean — Wild Agents
+ *
+ * Deep teal dark theme. Cyan accent.
+ * Depth and pressure — calm on the surface, cold underneath.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — bright cyan, bioluminescent signal */
+  --color-accent-l: 0.60;
+  --color-accent-c: 0.20;
+  --color-accent-h: 210;
+
+  /* Surface — deep teal ocean, dark and immersive */
+  --color-surface-l: 0.08;
+  --color-surface-c: 0.022;
+  --color-surface-h: 205;
+
+  /* Text — primary: near-white cool, crisp above the deep */
+  --color-text-primary-l: 0.94;
+  --color-text-primary-c: 0.007;
+  --color-text-primary-h: 210;
+
+  /* Text — secondary: grey-teal, fades into the current */
+  --color-text-secondary-l: 0.58;
+  --color-text-secondary-c: 0.015;
+  --color-text-secondary-h: 205;
+
+  /* Border — dark teal, depth markers */
+  --color-border-l: 0.17;
+  --color-border-c: 0.018;
+  --color-border-h: 205;
+}

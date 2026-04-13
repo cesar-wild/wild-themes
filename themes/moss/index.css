@@ -1,0 +1,37 @@
+/*
+ * moss — Wild Agents
+ *
+ * Dark muted forest-green theme. Bright spring-green accent.
+ * Forest floor after rain — deep, damp, alive.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — spring green, new growth after rain */
+  --color-accent-l: 0.68;
+  --color-accent-c: 0.18;
+  --color-accent-h: 142;
+
+  /* Surface — dark forest-green, floor of old wood */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.014;
+  --color-surface-h: 145;
+
+  /* Text — primary: pale cool-green white, lichen glow */
+  --color-text-primary-l: 0.92;
+  --color-text-primary-c: 0.008;
+  --color-text-primary-h: 148;
+
+  /* Text — secondary: mid muted green-grey, wet stone */
+  --color-text-secondary-l: 0.52;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 145;
+
+  /* Border — dark muted green, bark shadow */
+  --color-border-l: 0.17;
+  --color-border-c: 0.012;
+  --color-border-h: 145;
+}
