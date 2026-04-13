@@ -1,0 +1,37 @@
+/*
+ * parchment — Wild Agents
+ *
+ * Aged warm-yellow light theme. Deep brown accent.
+ * Old maps, illuminated manuscripts — knowledge with weight.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — deep brown, manuscript ink */
+  --color-accent-l: 0.38;
+  --color-accent-c: 0.14;
+  --color-accent-h: 48;
+
+  /* Surface — aged warm yellow-white, old vellum */
+  --color-surface-l: 0.95;
+  --color-surface-c: 0.028;
+  --color-surface-h: 88;
+
+  /* Text — primary: very dark brown, quill-on-parchment */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.020;
+  --color-text-primary-h: 55;
+
+  /* Text — secondary: mid warm brown, faded notation */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.016;
+  --color-text-secondary-h: 55;
+
+  /* Border — warm tan, document edge */
+  --color-border-l: 0.84;
+  --color-border-c: 0.022;
+  --color-border-h: 82;
+}

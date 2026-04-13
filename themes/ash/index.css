@@ -1,0 +1,37 @@
+/*
+ * ash — Wild Agents
+ *
+ * Cool mid-light grey theme. Pale blue accent.
+ * After the fire — quiet, clean, reset.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — pale blue, clear sky after smoke */
+  --color-accent-l: 0.60;
+  --color-accent-c: 0.12;
+  --color-accent-h: 235;
+
+  /* Surface — cool mid-light grey, ash settling */
+  --color-surface-l: 0.93;
+  --color-surface-c: 0.005;
+  --color-surface-h: 235;
+
+  /* Text — primary: dark cool grey, remnant contrast */
+  --color-text-primary-l: 0.18;
+  --color-text-primary-c: 0.006;
+  --color-text-primary-h: 235;
+
+  /* Text — secondary: mid grey, fades into the ash */
+  --color-text-secondary-l: 0.48;
+  --color-text-secondary-c: 0.005;
+  --color-text-secondary-h: 235;
+
+  /* Border — pale grey, barely there */
+  --color-border-l: 0.82;
+  --color-border-c: 0.005;
+  --color-border-h: 235;
+}
