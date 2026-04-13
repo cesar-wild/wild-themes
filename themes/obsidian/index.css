@@ -1,0 +1,37 @@
+/*
+ * obsidian — Wild Agents
+ *
+ * Near-black cool dark theme. Ice-blue accent.
+ * Volcanic glass — sharp, reflective, ancient.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — ice blue, reflected light on glass */
+  --color-accent-l: 0.72;
+  --color-accent-c: 0.14;
+  --color-accent-h: 210;
+
+  /* Surface — near-black cool, volcanic glass */
+  --color-surface-l: 0.05;
+  --color-surface-c: 0.008;
+  --color-surface-h: 220;
+
+  /* Text — primary: cool near-white, frost on obsidian */
+  --color-text-primary-l: 0.94;
+  --color-text-primary-c: 0.006;
+  --color-text-primary-h: 215;
+
+  /* Text — secondary: cool mid-grey, depth in glass */
+  --color-text-secondary-l: 0.52;
+  --color-text-secondary-c: 0.008;
+  --color-text-secondary-h: 218;
+
+  /* Border — dark cool-grey, hairline fracture */
+  --color-border-l: 0.14;
+  --color-border-c: 0.007;
+  --color-border-h: 218;
+}
