@@ -1,0 +1,37 @@
+/*
+ * glacier — Wild Agents
+ *
+ * Very light cool blue-white theme. Deep ice-blue accent.
+ * Frozen and vast, everything visible — nowhere to hide, nothing to hide.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — deep ice-blue, crevasse depth */
+  --color-accent-l: 0.48;
+  --color-accent-c: 0.16;
+  --color-accent-h: 220;
+
+  /* Surface — very light blue-white, ice shelf */
+  --color-surface-l: 0.98;
+  --color-surface-c: 0.006;
+  --color-surface-h: 218;
+
+  /* Text — primary: dark cool grey-blue, shadow on ice */
+  --color-text-primary-l: 0.12;
+  --color-text-primary-c: 0.010;
+  --color-text-primary-h: 222;
+
+  /* Text — secondary: mid cool grey, recedes like melt water */
+  --color-text-secondary-l: 0.42;
+  --color-text-secondary-c: 0.008;
+  --color-text-secondary-h: 220;
+
+  /* Border — pale icy blue, frost line */
+  --color-border-l: 0.91;
+  --color-border-c: 0.006;
+  --color-border-h: 218;
+}
