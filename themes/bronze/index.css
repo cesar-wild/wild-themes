@@ -1,0 +1,37 @@
+/*
+ * bronze — Wild Agents
+ *
+ * Warm dark brown theme. Golden bronze accent.
+ * Cast metal, ancient and strong — made to outlast the maker.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — golden bronze, warm metallic light */
+  --color-accent-l: 0.65;
+  --color-accent-c: 0.16;
+  --color-accent-h: 62;
+
+  /* Surface — dark warm brown, cast in shadow */
+  --color-surface-l: 0.10;
+  --color-surface-c: 0.018;
+  --color-surface-h: 50;
+
+  /* Text — primary: warm off-white, torch-lit legibility */
+  --color-text-primary-l: 0.92;
+  --color-text-primary-c: 0.012;
+  --color-text-primary-h: 70;
+
+  /* Text — secondary: warm gold-grey, recedes like old metal */
+  --color-text-secondary-l: 0.57;
+  --color-text-secondary-c: 0.014;
+  --color-text-secondary-h: 60;
+
+  /* Border — dark bronze-brown, forged edges */
+  --color-border-l: 0.20;
+  --color-border-c: 0.016;
+  --color-border-h: 50;
+}

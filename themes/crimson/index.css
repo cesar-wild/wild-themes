@@ -1,0 +1,37 @@
+/*
+ * crimson — Wild Agents
+ *
+ * Near-black dark theme. Vivid crimson red accent.
+ * Power and precision, no apology — the hunt in red.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — vivid crimson, blood-signal red */
+  --color-accent-l: 0.52;
+  --color-accent-c: 0.24;
+  --color-accent-h: 15;
+
+  /* Surface — near-black, void before the strike */
+  --color-surface-l: 0.07;
+  --color-surface-c: 0.006;
+  --color-surface-h: 15;
+
+  /* Text — primary: cold off-white, harsh contrast */
+  --color-text-primary-l: 0.94;
+  --color-text-primary-c: 0.005;
+  --color-text-primary-h: 15;
+
+  /* Text — secondary: muted grey-red, recedes into the dark */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.008;
+  --color-text-secondary-h: 15;
+
+  /* Border — dark, barely visible */
+  --color-border-l: 0.16;
+  --color-border-c: 0.008;
+  --color-border-h: 15;
+}
