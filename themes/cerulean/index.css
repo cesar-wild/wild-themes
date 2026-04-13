@@ -1,0 +1,37 @@
+/*
+ * cerulean — Wild Agents
+ *
+ * Bright sky-blue light theme. Deep cerulean accent.
+ * Cloudless midday, nothing overhead — open and fast.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — deep cerulean, clear sky depth */
+  --color-accent-l: 0.50;
+  --color-accent-c: 0.20;
+  --color-accent-h: 230;
+
+  /* Surface — bright sky-blue white, midday light */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.008;
+  --color-surface-h: 228;
+
+  /* Text — primary: dark cool blue-grey, high contrast */
+  --color-text-primary-l: 0.13;
+  --color-text-primary-c: 0.012;
+  --color-text-primary-h: 232;
+
+  /* Text — secondary: mid sky-grey, light recession */
+  --color-text-secondary-l: 0.42;
+  --color-text-secondary-c: 0.010;
+  --color-text-secondary-h: 230;
+
+  /* Border — pale sky blue, horizon line */
+  --color-border-l: 0.89;
+  --color-border-c: 0.008;
+  --color-border-h: 228;
+}

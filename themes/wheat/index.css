@@ -1,0 +1,37 @@
+/*
+ * wheat — Wild Agents
+ *
+ * Warm golden-yellow light theme. Earthy brown accent.
+ * Fields in late summer, open and calm — work with room to breathe.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — earthy brown, harvest shadow */
+  --color-accent-l: 0.45;
+  --color-accent-c: 0.14;
+  --color-accent-h: 52;
+
+  /* Surface — warm golden-yellow white, sunlit field */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.022;
+  --color-surface-h: 92;
+
+  /* Text — primary: deep warm brown, fertile soil */
+  --color-text-primary-l: 0.18;
+  --color-text-primary-c: 0.018;
+  --color-text-primary-h: 62;
+
+  /* Text — secondary: mid golden-brown, straw colour */
+  --color-text-secondary-l: 0.46;
+  --color-text-secondary-c: 0.014;
+  --color-text-secondary-h: 60;
+
+  /* Border — warm pale gold, field edge */
+  --color-border-l: 0.87;
+  --color-border-c: 0.018;
+  --color-border-h: 88;
+}
