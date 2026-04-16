@@ -1,0 +1,12 @@
+{
+  "id": "cinder",
+  "name": "Cinder",
+  "description": "Post-fire grey. Warm residue, orange ember buried in the ash. Something survived. Start again.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "warm",
+    "grey"
+  ]
+}

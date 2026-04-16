@@ -1,0 +1,12 @@
+{
+  "id": "circuit",
+  "name": "Circuit",
+  "description": "PCB dark green with trace lines. Orange status LED. Current flows through every commit.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "tech",
+    "green"
+  ]
+}

@@ -1,0 +1,36 @@
+/*
+ * lapis — Wild Agents
+ *
+ * Ancient blue, flecked gold. Afghan mountains. Every pharaoh wanted this. The pack ships it.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — lapis gold fleck, royal accent */
+  --color-accent-l: 0.72;
+  --color-accent-c: 0.14;
+  --color-accent-h: 80;
+
+  /* Surface — deep lapis blue, mineral dark */
+  --color-surface-l: 0.1;
+  --color-surface-c: 0.03;
+  --color-surface-h: 248;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 245;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 245;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.23;
+  --color-border-c: 0.015;
+  --color-border-h: 248;
+}

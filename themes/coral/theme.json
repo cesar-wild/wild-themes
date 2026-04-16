@@ -1,0 +1,12 @@
+{
+  "id": "coral",
+  "name": "Coral",
+  "description": "Warm orange-pink. Dark teal contrast. Reef ecosystem: everything depends on everything.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "light",
+    "warm",
+    "coral"
+  ]
+}

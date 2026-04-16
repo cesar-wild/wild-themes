@@ -1,0 +1,12 @@
+{
+  "id": "navy",
+  "name": "Navy",
+  "description": "Naval dark. Horizon-scanning blue. Sharp cyan signal light. Order, discipline, the long watch.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "blue",
+    "cyan-accent"
+  ]
+}

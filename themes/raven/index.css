@@ -1,0 +1,36 @@
+/*
+ * raven — Wild Agents
+ *
+ * Ink-black surfaces, iridescent violet. The raven sees what others miss. Smart. Still. Watchful.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — iridescent violet, raven feather */
+  --color-accent-l: 0.58;
+  --color-accent-c: 0.2;
+  --color-accent-h: 295;
+
+  /* Surface — ink black, midnight purple cast */
+  --color-surface-l: 0.07;
+  --color-surface-c: 0.01;
+  --color-surface-h: 290;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 290;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 290;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.2;
+  --color-border-c: 0.015;
+  --color-border-h: 290;
+}

@@ -1,0 +1,12 @@
+{
+  "id": "terminal",
+  "name": "Terminal",
+  "description": "Classic black command line. Green phosphor text on void surface. The prompt never lies.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "tech",
+    "minimal"
+  ]
+}

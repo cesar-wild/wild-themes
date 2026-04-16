@@ -1,0 +1,36 @@
+/*
+ * violet — Wild Agents
+ *
+ * Deep purple, bright violet beat. Between red and blue, where logic meets imagination. Ship both.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — bright violet, imagination spike */
+  --color-accent-l: 0.62;
+  --color-accent-c: 0.22;
+  --color-accent-h: 298;
+
+  /* Surface — deep purple dark */
+  --color-surface-l: 0.1;
+  --color-surface-c: 0.02;
+  --color-surface-h: 290;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 292;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 292;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.23;
+  --color-border-c: 0.015;
+  --color-border-h: 290;
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rust",
+  "name": "Rust",
+  "description": "Oxidized iron. Warm orange-red surface. Time plus moisture equals this. Entropy is honest.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "earthy",
+    "warm"
+  ]
+}

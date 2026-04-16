@@ -1,0 +1,12 @@
+{
+  "id": "jaguar",
+  "name": "Jaguar",
+  "description": "Jungle dark. Teal accent flares like eyes in the canopy. Moves fast, leaves no trace.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "teal",
+    "jungle"
+  ]
+}

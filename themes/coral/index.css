@@ -1,0 +1,36 @@
+/*
+ * coral — Wild Agents
+ *
+ * Warm orange-pink. Dark teal contrast. Reef ecosystem: everything depends on everything.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — coral orange-pink, reef warm */
+  --color-accent-l: 0.5;
+  --color-accent-c: 0.2;
+  --color-accent-h: 32;
+
+  /* Surface — pale coral light */
+  --color-surface-l: 0.96;
+  --color-surface-c: 0.01;
+  --color-surface-h: 28;
+
+  /* Text — primary: near-black, legible on light */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 28;
+
+  /* Text — secondary: muted, secondary on light */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 28;
+
+  /* Border — soft light edge */
+  --color-border-l: 0.88;
+  --color-border-c: 0.01;
+  --color-border-h: 28;
+}

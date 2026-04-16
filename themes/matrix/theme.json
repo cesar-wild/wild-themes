@@ -1,0 +1,12 @@
+{
+  "id": "matrix",
+  "name": "Matrix",
+  "description": "Green rain on black. The simulation runs. You already know it is not real. Ship anyway.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "green",
+    "tech"
+  ]
+}
