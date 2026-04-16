@@ -1,0 +1,12 @@
+{
+  "id": "saffron",
+  "name": "Saffron",
+  "description": "The most expensive spice by weight. Deep yellow-orange on near-black. Rare. Worth it.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "yellow",
+    "warm"
+  ]
+}

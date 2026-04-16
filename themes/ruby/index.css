@@ -1,0 +1,36 @@
+/*
+ * ruby — Wild Agents
+ *
+ * Blood-red gem on near-black. Cut and polished. Extreme chroma, controlled surface. Danger made beautiful.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — ruby red, gem-cut fire */
+  --color-accent-l: 0.52;
+  --color-accent-c: 0.24;
+  --color-accent-h: 20;
+
+  /* Surface — near-black, red mineral hint */
+  --color-surface-l: 0.08;
+  --color-surface-c: 0.015;
+  --color-surface-h: 12;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 15;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 15;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.21;
+  --color-border-c: 0.015;
+  --color-border-h: 12;
+}

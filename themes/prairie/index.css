@@ -1,0 +1,36 @@
+/*
+ * prairie — Wild Agents
+ *
+ * Golden hour over flat grass. Warm pale light, amber thread. The horizon is not the limit — it is the goal.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — golden hour amber, prairie thread */
+  --color-accent-l: 0.48;
+  --color-accent-c: 0.16;
+  --color-accent-h: 68;
+
+  /* Surface — warm pale prairie light */
+  --color-surface-l: 0.96;
+  --color-surface-c: 0.012;
+  --color-surface-h: 75;
+
+  /* Text — primary: near-black, legible on light */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 75;
+
+  /* Text — secondary: muted, secondary on light */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 75;
+
+  /* Border — soft light edge */
+  --color-border-l: 0.88;
+  --color-border-c: 0.01;
+  --color-border-h: 75;
+}

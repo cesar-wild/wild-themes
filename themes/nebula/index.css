@@ -1,0 +1,36 @@
+/*
+ * nebula — Wild Agents
+ *
+ * Deep space cloud. Rose and violet gas against void black. Stars are born in violence.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — nebula rose, stellar nursery */
+  --color-accent-l: 0.62;
+  --color-accent-c: 0.18;
+  --color-accent-h: 320;
+
+  /* Surface — void dark, deep space purple */
+  --color-surface-l: 0.07;
+  --color-surface-c: 0.012;
+  --color-surface-h: 275;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 275;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 275;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.2;
+  --color-border-c: 0.015;
+  --color-border-h: 275;
+}

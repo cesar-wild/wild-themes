@@ -1,0 +1,36 @@
+/*
+ * meadow — Wild Agents
+ *
+ * Open field light. Green emerald accent in the grass. Sun-warm white. The pack runs free here.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — meadow green, fresh growth */
+  --color-accent-l: 0.45;
+  --color-accent-c: 0.18;
+  --color-accent-h: 140;
+
+  /* Surface — sun-warm field white */
+  --color-surface-l: 0.96;
+  --color-surface-c: 0.008;
+  --color-surface-h: 120;
+
+  /* Text — primary: near-black, legible on light */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 120;
+
+  /* Text — secondary: muted, secondary on light */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 120;
+
+  /* Border — soft light edge */
+  --color-border-l: 0.88;
+  --color-border-c: 0.01;
+  --color-border-h: 120;
+}

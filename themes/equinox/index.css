@@ -1,0 +1,36 @@
+/*
+ * equinox — Wild Agents
+ *
+ * Balance point. Equal dark and light, cool blue-grey surface, warm amber fulcrum.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — amber fulcrum, balance point */
+  --color-accent-l: 0.7;
+  --color-accent-c: 0.15;
+  --color-accent-h: 68;
+
+  /* Surface — grey dark, balanced cool-warm */
+  --color-surface-l: 0.13;
+  --color-surface-c: 0.01;
+  --color-surface-h: 220;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 218;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 218;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.26;
+  --color-border-c: 0.015;
+  --color-border-h: 220;
+}

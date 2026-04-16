@@ -1,0 +1,12 @@
+{
+  "id": "willow",
+  "name": "Willow",
+  "description": "Pale green light through trailing branches. Soft. Yielding but rooted. The willow bends, does not break.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "light",
+    "green",
+    "soft"
+  ]
+}

@@ -1,0 +1,36 @@
+/*
+ * blossom — Wild Agents
+ *
+ * Spring white with cherry depth. The window is short. Ship before the petals fall.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — cherry deep pink, spring intensity */
+  --color-accent-l: 0.48;
+  --color-accent-c: 0.18;
+  --color-accent-h: 350;
+
+  /* Surface — blossom light white */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.007;
+  --color-surface-h: 350;
+
+  /* Text — primary: near-black, legible on light */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 350;
+
+  /* Text — secondary: muted, secondary on light */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 350;
+
+  /* Border — soft light edge */
+  --color-border-l: 0.89;
+  --color-border-c: 0.01;
+  --color-border-h: 350;
+}

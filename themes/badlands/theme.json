@@ -1,0 +1,12 @@
+{
+  "id": "badlands",
+  "name": "Badlands",
+  "description": "Eroded dark rust. Harsh, beautiful, inhospitable. Rust accent. Only the adapted survive.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "earthy",
+    "harsh"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rose-gold",
+  "name": "Rose Gold",
+  "description": "Warm pink-gold light. The alloy does not exist in nature — that is what makes it ours.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "light",
+    "warm",
+    "pink"
+  ]
+}

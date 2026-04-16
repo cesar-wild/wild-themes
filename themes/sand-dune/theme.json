@@ -1,0 +1,12 @@
+{
+  "id": "sand-dune",
+  "name": "Sand Dune",
+  "description": "Desert light. Sun-bleached cream, orange accent at the ridge. Wind-carved. Efficient by necessity.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "light",
+    "warm",
+    "orange"
+  ]
+}

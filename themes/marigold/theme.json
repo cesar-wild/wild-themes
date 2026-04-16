@@ -1,0 +1,12 @@
+{
+  "id": "marigold",
+  "name": "Marigold",
+  "description": "Saturated yellow-orange on dark. Marigold says: here. Exactly here. Look.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "yellow",
+    "warm-accent"
+  ]
+}

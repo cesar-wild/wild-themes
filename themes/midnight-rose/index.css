@@ -1,0 +1,36 @@
+/*
+ * midnight-rose — Wild Agents
+ *
+ * Dead-of-night dark, a single rose-pink filament. Beauty in unlikely places.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — rose pink, flower at midnight */
+  --color-accent-l: 0.65;
+  --color-accent-c: 0.18;
+  --color-accent-h: 345;
+
+  /* Surface — deep night, faint crimson warmth */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.015;
+  --color-surface-h: 330;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 330;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 330;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.22;
+  --color-border-c: 0.015;
+  --color-border-h: 330;
+}

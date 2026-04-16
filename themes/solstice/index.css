@@ -1,0 +1,36 @@
+/*
+ * solstice — Wild Agents
+ *
+ * Longest night, deepest dark. A single gold thread on the horizon. The turn is coming.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — solstice gold, horizon thread */
+  --color-accent-l: 0.75;
+  --color-accent-c: 0.14;
+  --color-accent-h: 72;
+
+  /* Surface — winter night black, deep blue */
+  --color-surface-l: 0.08;
+  --color-surface-c: 0.01;
+  --color-surface-h: 240;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 240;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 240;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.21;
+  --color-border-c: 0.015;
+  --color-border-h: 240;
+}

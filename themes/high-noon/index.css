@@ -1,0 +1,36 @@
+/*
+ * high-noon — Wild Agents
+ *
+ * Bleached noon white. Zero shadows, orange accent, maximum contrast. Nobody hides at high noon.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — noon orange, full sun */
+  --color-accent-l: 0.5;
+  --color-accent-c: 0.22;
+  --color-accent-h: 42;
+
+  /* Surface — bleached white, zero shadow */
+  --color-surface-l: 0.98;
+  --color-surface-c: 0.005;
+  --color-surface-h: 72;
+
+  /* Text — primary: near-black, legible on light */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 72;
+
+  /* Text — secondary: muted, secondary on light */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 72;
+
+  /* Border — soft light edge */
+  --color-border-l: 0.9;
+  --color-border-c: 0.01;
+  --color-border-h: 72;
+}

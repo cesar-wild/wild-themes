@@ -1,0 +1,36 @@
+/*
+ * saffron — Wild Agents
+ *
+ * The most expensive spice by weight. Deep yellow-orange on near-black. Rare. Worth it.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — saffron gold, precious spice */
+  --color-accent-l: 0.72;
+  --color-accent-c: 0.2;
+  --color-accent-h: 62;
+
+  /* Surface — dark deep warm, saffron ground */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.015;
+  --color-surface-h: 55;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 58;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 58;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.22;
+  --color-border-c: 0.015;
+  --color-border-h: 55;
+}

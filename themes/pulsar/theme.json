@@ -1,0 +1,12 @@
+{
+  "id": "pulsar",
+  "name": "Pulsar",
+  "description": "Rotating neutron star. Precise cyan beam sweeps the dark. Millisecond timing. Absolute reliability.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "space",
+    "cyan"
+  ]
+}
