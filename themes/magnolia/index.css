@@ -1,0 +1,36 @@
+/*
+ * magnolia — Wild Agents
+ *
+ * Cream-white light. Soft purple interior. The magnolia blooms before it leafs — courage over shelter.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — magnolia purple, bloom interior */
+  --color-accent-l: 0.42;
+  --color-accent-c: 0.14;
+  --color-accent-h: 300;
+
+  /* Surface — magnolia cream white */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.008;
+  --color-surface-h: 60;
+
+  /* Text — primary: near-black, legible on light */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 60;
+
+  /* Text — secondary: muted, secondary on light */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 60;
+
+  /* Border — soft light edge */
+  --color-border-l: 0.89;
+  --color-border-c: 0.01;
+  --color-border-h: 60;
+}

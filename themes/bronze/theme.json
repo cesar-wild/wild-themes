@@ -1,0 +1,12 @@
+{
+  "id": "bronze",
+  "name": "Bronze",
+  "description": "Ancient alloy dark. Amber edge. Three thousand years of making things that last.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "warm",
+    "metallic"
+  ]
+}

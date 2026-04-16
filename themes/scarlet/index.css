@@ -1,0 +1,36 @@
+/*
+ * scarlet — Wild Agents
+ *
+ * Alarm red on deep dark. Maximum urgency accent. Read this comment. Now.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — scarlet alarm, urgent signal */
+  --color-accent-l: 0.55;
+  --color-accent-c: 0.26;
+  --color-accent-h: 20;
+
+  /* Surface — near-black, red warning cast */
+  --color-surface-l: 0.08;
+  --color-surface-c: 0.015;
+  --color-surface-h: 8;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 10;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 10;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.21;
+  --color-border-c: 0.015;
+  --color-border-h: 8;
+}

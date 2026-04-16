@@ -1,0 +1,12 @@
+{
+  "id": "amethyst",
+  "name": "Amethyst",
+  "description": "Violet crystal dark. Clear purple facet catches light. Clarity and depth in the same stone.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "purple",
+    "gem"
+  ]
+}

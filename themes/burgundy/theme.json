@@ -1,0 +1,12 @@
+{
+  "id": "burgundy",
+  "name": "Burgundy",
+  "description": "Wine-dark depth. Gold accent thread. Old cellar, slow aging, the long game.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "red",
+    "warm"
+  ]
+}

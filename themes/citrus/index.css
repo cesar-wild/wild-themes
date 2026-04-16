@@ -1,0 +1,36 @@
+/*
+ * citrus — Wild Agents
+ *
+ * Electric yellow on white. Acid-bright accent. Cut through. Wake up. The CI run completed.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — citrus yellow, acid bright */
+  --color-accent-l: 0.55;
+  --color-accent-c: 0.22;
+  --color-accent-h: 80;
+
+  /* Surface — clean white, citrus cast */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.005;
+  --color-surface-h: 80;
+
+  /* Text — primary: near-black, legible on light */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 80;
+
+  /* Text — secondary: muted, secondary on light */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 80;
+
+  /* Border — soft light edge */
+  --color-border-l: 0.89;
+  --color-border-c: 0.01;
+  --color-border-h: 80;
+}

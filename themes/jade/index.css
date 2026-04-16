@@ -1,0 +1,36 @@
+/*
+ * jade — Wild Agents
+ *
+ * Carved calm green. Dark forest undertone in medium light. The jade is hard. The jade endures.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — jade deep green, carved surface */
+  --color-accent-l: 0.42;
+  --color-accent-c: 0.16;
+  --color-accent-h: 155;
+
+  /* Surface — jade medium, soft green light */
+  --color-surface-l: 0.8;
+  --color-surface-c: 0.04;
+  --color-surface-h: 148;
+
+  /* Text — primary: dark, readable on mid */
+  --color-text-primary-l: 0.12;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 148;
+
+  /* Text — secondary: muted on mid tone */
+  --color-text-secondary-l: 0.35;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 148;
+
+  /* Border — defined mid-tone edge */
+  --color-border-l: 0.7;
+  --color-border-c: 0.02;
+  --color-border-h: 148;
+}

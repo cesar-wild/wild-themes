@@ -1,0 +1,12 @@
+{
+  "id": "moonstone",
+  "name": "Moonstone",
+  "description": "Pale iridescent light. Blue adularescence over cool white. The moon does not explain itself.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "light",
+    "cool",
+    "soft"
+  ]
+}

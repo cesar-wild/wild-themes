@@ -1,0 +1,36 @@
+/*
+ * onyx — Wild Agents
+ *
+ * Polished stone dark. Platinum-cool accent. Nothing wasted, everything deliberate.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — platinum, polished edge */
+  --color-accent-l: 0.8;
+  --color-accent-c: 0.05;
+  --color-accent-h: 230;
+
+  /* Surface — onyx cool-black */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.005;
+  --color-surface-h: 230;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 230;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 230;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.22;
+  --color-border-c: 0.015;
+  --color-border-h: 230;
+}

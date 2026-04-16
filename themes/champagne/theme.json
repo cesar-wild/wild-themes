@@ -1,0 +1,12 @@
+{
+  "id": "champagne",
+  "name": "Champagne",
+  "description": "Pale gold bubble. Warm cream surface. The deploy succeeded. This is what celebration looks like.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "light",
+    "warm",
+    "gold"
+  ]
+}

@@ -1,0 +1,36 @@
+/*
+ * delta — Wild Agents
+ *
+ * River delta at low tide. Mud-dark, river-blue trace. Everything flows to here. Everything deposits.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — river blue, tidal channel */
+  --color-accent-l: 0.55;
+  --color-accent-c: 0.14;
+  --color-accent-h: 210;
+
+  /* Surface — delta mud-dark, cold blue-grey */
+  --color-surface-l: 0.11;
+  --color-surface-c: 0.015;
+  --color-surface-h: 190;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 195;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 195;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.24;
+  --color-border-c: 0.015;
+  --color-border-h: 190;
+}

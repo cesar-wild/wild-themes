@@ -1,0 +1,36 @@
+/*
+ * obsidian — Wild Agents
+ *
+ * Volcanic glass surface, near-zero chroma. Pure neutral dark with a white-gold edge.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — white-gold, volcanic shimmer */
+  --color-accent-l: 0.82;
+  --color-accent-c: 0.08;
+  --color-accent-h: 80;
+
+  /* Surface — obsidian neutral-dark */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.005;
+  --color-surface-h: 80;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 80;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 80;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.22;
+  --color-border-c: 0.015;
+  --color-border-h: 80;
+}

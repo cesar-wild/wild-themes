@@ -1,0 +1,36 @@
+/*
+ * tundra — Wild Agents
+ *
+ * Permafrost blue-dark. Ice-light accent. Flat, cold, enormous. Nothing hides here — everything survives.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — permafrost ice, frozen light */
+  --color-accent-l: 0.82;
+  --color-accent-c: 0.08;
+  --color-accent-h: 215;
+
+  /* Surface — tundra dark blue, wind-scoured */
+  --color-surface-l: 0.1;
+  --color-surface-c: 0.015;
+  --color-surface-h: 215;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 215;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 215;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.23;
+  --color-border-c: 0.015;
+  --color-border-h: 215;
+}

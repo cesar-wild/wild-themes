@@ -1,0 +1,36 @@
+/*
+ * sakura — Wild Agents
+ *
+ * Cherry blossom light. Petals fall for a week every year — the impermanence is the point.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — cherry blossom pink */
+  --color-accent-l: 0.5;
+  --color-accent-c: 0.16;
+  --color-accent-h: 345;
+
+  /* Surface — sakura light, petal-soft warm white */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.008;
+  --color-surface-h: 355;
+
+  /* Text — primary: near-black, legible on light */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 355;
+
+  /* Text — secondary: muted, secondary on light */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 355;
+
+  /* Border — soft light edge */
+  --color-border-l: 0.89;
+  --color-border-c: 0.01;
+  --color-border-h: 355;
+}

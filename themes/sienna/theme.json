@@ -1,0 +1,12 @@
+{
+  "id": "sienna",
+  "name": "Sienna",
+  "description": "Reddish-brown earth pigment. Used since the cave painters. Some colors survive because they are right.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "earthy",
+    "warm"
+  ]
+}

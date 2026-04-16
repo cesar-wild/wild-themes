@@ -1,0 +1,36 @@
+/*
+ * opal — Wild Agents
+ *
+ * All-spectrum shifting. Warm white surface, impossible rainbow accent. The opal holds every color — and shares none.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — opal teal, spectrum shift */
+  --color-accent-l: 0.48;
+  --color-accent-c: 0.16;
+  --color-accent-h: 175;
+
+  /* Surface — opal warm-white, iridescent base */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.005;
+  --color-surface-h: 50;
+
+  /* Text — primary: near-black, legible on light */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 50;
+
+  /* Text — secondary: muted, secondary on light */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 50;
+
+  /* Border — soft light edge */
+  --color-border-l: 0.89;
+  --color-border-c: 0.01;
+  --color-border-h: 50;
+}

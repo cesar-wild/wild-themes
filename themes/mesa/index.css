@@ -1,0 +1,36 @@
+/*
+ * mesa — Wild Agents
+ *
+ * Flat-topped warm dark. Copper glint in the rock. Patience built this. Wind will take centuries more.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — copper glint, mesa stone */
+  --color-accent-l: 0.58;
+  --color-accent-c: 0.18;
+  --color-accent-h: 40;
+
+  /* Surface — mesa warm dark, burnt sienna */
+  --color-surface-l: 0.12;
+  --color-surface-c: 0.025;
+  --color-surface-h: 35;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 38;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 38;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.25;
+  --color-border-c: 0.015;
+  --color-border-h: 35;
+}

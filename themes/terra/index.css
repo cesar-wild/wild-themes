@@ -1,0 +1,36 @@
+/*
+ * terra — Wild Agents
+ *
+ * Earth red. Ground level. Everything built on this surface — the foundation is not optional.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — terra warm orange, earth tone */
+  --color-accent-l: 0.58;
+  --color-accent-c: 0.18;
+  --color-accent-h: 38;
+
+  /* Surface — terra rossa dark, rich soil */
+  --color-surface-l: 0.1;
+  --color-surface-c: 0.02;
+  --color-surface-h: 28;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 30;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 30;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.23;
+  --color-border-c: 0.015;
+  --color-border-h: 28;
+}

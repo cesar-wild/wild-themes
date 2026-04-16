@@ -1,0 +1,36 @@
+/*
+ * mangrove — Wild Agents
+ *
+ * Salt-water roots in muddy dark. Murky teal breaks the surface. Life thrives in the brackish margin.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — murky teal, waterline break */
+  --color-accent-l: 0.6;
+  --color-accent-c: 0.14;
+  --color-accent-h: 175;
+
+  /* Surface — mangrove dark, brackish depth */
+  --color-surface-l: 0.11;
+  --color-surface-c: 0.015;
+  --color-surface-h: 170;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 170;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 170;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.24;
+  --color-border-c: 0.015;
+  --color-border-h: 170;
+}

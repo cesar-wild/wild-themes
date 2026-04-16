@@ -1,0 +1,36 @@
+/*
+ * burgundy — Wild Agents
+ *
+ * Wine-dark depth. Gold accent thread. Old cellar, slow aging, the long game.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — cellar gold, aged warmth */
+  --color-accent-l: 0.68;
+  --color-accent-c: 0.12;
+  --color-accent-h: 72;
+
+  /* Surface — burgundy dark, wine depth */
+  --color-surface-l: 0.1;
+  --color-surface-c: 0.025;
+  --color-surface-h: 358;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 355;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 355;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.23;
+  --color-border-c: 0.015;
+  --color-border-h: 358;
+}

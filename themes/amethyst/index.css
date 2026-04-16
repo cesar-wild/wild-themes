@@ -1,0 +1,36 @@
+/*
+ * amethyst — Wild Agents
+ *
+ * Violet crystal dark. Clear purple facet catches light. Clarity and depth in the same stone.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — amethyst violet, crystal face */
+  --color-accent-l: 0.62;
+  --color-accent-c: 0.2;
+  --color-accent-h: 305;
+
+  /* Surface — amethyst dark, gem purple */
+  --color-surface-l: 0.1;
+  --color-surface-c: 0.02;
+  --color-surface-h: 295;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 298;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 298;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.23;
+  --color-border-c: 0.015;
+  --color-border-h: 295;
+}

@@ -1,0 +1,36 @@
+/*
+ * arctic — Wild Agents
+ *
+ * Pure white expanse. Horizon-blue accent. Horizon is not the end — it is the beginning of the next thing.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — arctic horizon blue */
+  --color-accent-l: 0.5;
+  --color-accent-c: 0.15;
+  --color-accent-h: 225;
+
+  /* Surface — pure arctic white */
+  --color-surface-l: 0.97;
+  --color-surface-c: 0.003;
+  --color-surface-h: 220;
+
+  /* Text — primary: near-black, legible on light */
+  --color-text-primary-l: 0.16;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 220;
+
+  /* Text — secondary: muted, secondary on light */
+  --color-text-secondary-l: 0.44;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 220;
+
+  /* Border — soft light edge */
+  --color-border-l: 0.89;
+  --color-border-c: 0.01;
+  --color-border-h: 220;
+}

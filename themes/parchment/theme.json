@@ -1,0 +1,12 @@
+{
+  "id": "parchment",
+  "name": "Parchment",
+  "description": "Warm manuscript light. Sepia ink on aged vellum. The words outlast the scribes.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "light",
+    "warm",
+    "sepia"
+  ]
+}

@@ -1,0 +1,36 @@
+/*
+ * midnight — Wild Agents
+ *
+ * Deep neutral dark. Silver accent. Zero hour — everything is possible, everything is still.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — silver, midnight precision */
+  --color-accent-l: 0.75;
+  --color-accent-c: 0.04;
+  --color-accent-h: 240;
+
+  /* Surface — midnight neutral dark */
+  --color-surface-l: 0.08;
+  --color-surface-c: 0.008;
+  --color-surface-h: 240;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 240;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 240;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.21;
+  --color-border-c: 0.015;
+  --color-border-h: 240;
+}

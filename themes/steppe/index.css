@@ -1,0 +1,36 @@
+/*
+ * steppe — Wild Agents
+ *
+ * Dry grass plain. Ochre and distance. The horizon is a long promise with no guarantee.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — ochre, steppe grass */
+  --color-accent-l: 0.38;
+  --color-accent-c: 0.14;
+  --color-accent-h: 65;
+
+  /* Surface — steppe dry-grass medium */
+  --color-surface-l: 0.84;
+  --color-surface-c: 0.03;
+  --color-surface-h: 75;
+
+  /* Text — primary: dark, readable on mid */
+  --color-text-primary-l: 0.12;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 75;
+
+  /* Text — secondary: muted on mid tone */
+  --color-text-secondary-l: 0.35;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 75;
+
+  /* Border — defined mid-tone edge */
+  --color-border-l: 0.74;
+  --color-border-c: 0.02;
+  --color-border-h: 75;
+}

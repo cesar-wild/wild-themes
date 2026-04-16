@@ -1,0 +1,36 @@
+/*
+ * graphite — Wild Agents
+ *
+ * Carbon layered dark. Soft grey pencil mark. The drawing is the thinking.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — pale grey-blue, graphite tone */
+  --color-accent-l: 0.68;
+  --color-accent-c: 0.04;
+  --color-accent-h: 250;
+
+  /* Surface — graphite dark, carbon soft */
+  --color-surface-l: 0.12;
+  --color-surface-c: 0.005;
+  --color-surface-h: 240;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 240;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 240;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.25;
+  --color-border-c: 0.015;
+  --color-border-h: 240;
+}

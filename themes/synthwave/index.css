@@ -1,0 +1,36 @@
+/*
+ * synthwave — Wild Agents
+ *
+ * 80s neon grid on purple night. Pink and cyan pulse. The sunset never ends on this highway.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — hot pink neon, synthwave pulse */
+  --color-accent-l: 0.65;
+  --color-accent-c: 0.22;
+  --color-accent-h: 322;
+
+  /* Surface — purple night, retro dark */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.02;
+  --color-surface-h: 278;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 280;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 280;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.22;
+  --color-border-c: 0.015;
+  --color-border-h: 278;
+}

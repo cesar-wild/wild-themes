@@ -1,0 +1,12 @@
+{
+  "id": "copper",
+  "name": "Copper",
+  "description": "Warm metallic dark. Orange-red conductor. Electricity flows through the pack.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "warm",
+    "metallic"
+  ]
+}

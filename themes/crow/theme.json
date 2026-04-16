@@ -1,0 +1,12 @@
+{
+  "id": "crow",
+  "name": "Crow",
+  "description": "Matte dark with a blade-red slash. The crow is clever, combative, and does not forgive sloppiness.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "dark",
+    "red",
+    "warm-accent"
+  ]
+}

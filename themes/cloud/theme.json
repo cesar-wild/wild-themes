@@ -1,0 +1,12 @@
+{
+  "id": "cloud",
+  "name": "Cloud",
+  "description": "Pure cumulus white. Sky-blue accent. The infrastructure is invisible until it isn't.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "light",
+    "blue",
+    "clean"
+  ]
+}

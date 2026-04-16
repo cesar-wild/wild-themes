@@ -1,0 +1,12 @@
+{
+  "id": "salmon",
+  "name": "Salmon",
+  "description": "Warm salmon pink. Upstream current. Against the flow is the only direction that matters.",
+  "version": "1.0.0",
+  "author": "Wild Agents",
+  "tags": [
+    "light",
+    "warm",
+    "pink"
+  ]
+}

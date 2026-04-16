@@ -1,0 +1,36 @@
+/*
+ * permafrost — Wild Agents
+ *
+ * Ice below the surface for ten thousand years. Deep cold blue, frost-white edge. Unmoving. Reliable.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — frost white, sub-zero clarity */
+  --color-accent-l: 0.88;
+  --color-accent-c: 0.04;
+  --color-accent-h: 210;
+
+  /* Surface — permafrost very deep blue */
+  --color-surface-l: 0.08;
+  --color-surface-c: 0.02;
+  --color-surface-h: 220;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 215;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 215;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.21;
+  --color-border-c: 0.015;
+  --color-border-h: 220;
+}

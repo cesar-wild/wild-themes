@@ -1,0 +1,36 @@
+/*
+ * maroon — Wild Agents
+ *
+ * Deep dark red. Cream accent. The old library, the worn chair, the work that lasts centuries.
+ *
+ * Override Paperclip OKLCH design tokens.
+ * All tokens use the format: --color-<role>-<l|c|h>
+ * where l = lightness (0–1), c = chroma, h = hue (0–360).
+ */
+
+:root {
+  /* Accent — cream warmth, library light */
+  --color-accent-l: 0.88;
+  --color-accent-c: 0.06;
+  --color-accent-h: 75;
+
+  /* Surface — maroon deep dark red */
+  --color-surface-l: 0.09;
+  --color-surface-c: 0.025;
+  --color-surface-h: 355;
+
+  /* Text — primary: near-white, clean on dark */
+  --color-text-primary-l: 0.93;
+  --color-text-primary-c: 0.01;
+  --color-text-primary-h: 350;
+
+  /* Text — secondary: muted grey, secondary */
+  --color-text-secondary-l: 0.55;
+  --color-text-secondary-c: 0.01;
+  --color-text-secondary-h: 350;
+
+  /* Border — subtle dark edge */
+  --color-border-l: 0.22;
+  --color-border-c: 0.015;
+  --color-border-h: 355;
+}
