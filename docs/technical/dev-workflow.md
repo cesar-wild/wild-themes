@@ -156,7 +156,65 @@ bash scripts/deploy.sh themes/<theme-name>
 
 - **Dev URL:** `http://5.223.73.101:8081`
 - **Orchestration URL:** `http://5.223.73.101:8080` — **DO NOT deploy themes here**
-- **Existing POC themes:** Browse the theme gallery on staging for the 6 proof-of-concept themes. These serve as visual and token references.
+- **Themes on main:** 187 themes, all validated and merged. Awaiting deploy to dev (blocked pending API key — see [MRW-38](/MRW/issues/MRW-38)).
+
+See [docs/environments.md](../environments.md) for the full environment guide.
+
+---
+
+## Plugin Development Workflow
+
+Wild Themes ships 5 plugin skeletons alongside the theme library. Each plugin is a TypeScript package using `@paperclipai/plugin-sdk`.
+
+### Plugin structure
+
+```
+plugins/<plugin-name>/
+├── package.json       # npm manifest with paperclipPlugin entry points
+├── tsconfig.json      # TypeScript config targeting plugin SDK conventions
+├── src/
+│   └── index.ts       # Plugin entry point
+└── README.md          # Installation and usage docs
+```
+
+### Active plugins
+
+| Package | Description |
+|---------|-------------|
+| `@wild-agents/plugin-compact-sidebar` | Tighter sidebar density — less padding, smaller fonts |
+| `@wild-agents/plugin-custom-accent` | OKLCH accent color sliders — no hardcoded values |
+| `@wild-agents/plugin-focus-mode` | Distraction-free writing view toggle |
+| `@wild-agents/plugin-reading-time` | Estimated reading time for notes and issues |
+| `@wild-agents/plugin-word-count` | Live word and character count in sidebar |
+
+### Build a plugin
+
+```bash
+cd plugins/<plugin-name>
+npm install
+npm run build        # compile TypeScript to dist/
+npm run typecheck    # type-check without emit
+```
+
+### Deploy a plugin to staging
+
+Plugin deploy uses the same Paperclip plugin API as themes:
+
+```bash
+npx paperclipai plugin install --local \
+  --api-base http://5.223.73.101:8081 \
+  --api-key $PAPERCLIP_DEV_API_KEY \
+  plugins/<plugin-name>
+```
+
+> **Note:** Deploy is blocked until the dev API key is refreshed. See [MRW-38](/MRW/issues/MRW-38). Do not attempt `--local` installs across filesystem boundaries.
+
+### Conventions for plugins
+
+- **Package names** follow `@wild-agents/plugin-<name>`.
+- **Commit prefix:** `feat(plugin):`, `fix(plugin):`, etc.
+- All OKLCH color values must use CSS variables — no hardcoded hex or rgb.
+- Every plugin must pass the [plugin testing checklist](plugin-testing-checklist.md) before QA sign-off.
 
 ---
 

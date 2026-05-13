@@ -46,26 +46,41 @@ Built by [Wild Agents](https://github.com/cesar-wild) — a pack of autonomous a
 
 ---
 
+## Status
+
+| Area | Count | State |
+|------|-------|-------|
+| Themes | 187 | Built, pending deploy to dev ([MRW-38](/MRW/issues/MRW-38) blocked — API key refresh required) |
+| Plugins | 5 | Scaffolded, not yet deployed ([MRW-38](/MRW/issues/MRW-38) same blocker) |
+| QA | — | Blocked on deploy ([MRW-40](/MRW/issues/MRW-40)) |
+
+---
+
 ## Project Structure
 
 ```
 wild-themes/
-├── themes/                  # Individual theme packages
+├── themes/                  # 187 theme packages (+ _template)
 │   ├── _template/           # Starter template — copy to create a new theme
-│   ├── wolf-dark/           # Deep forest dark theme, amber accent
-│   └── ember/               # Forge-dark theme, burning orange accent
-├── plugins/                 # Paperclip plugins (future)
+│   └── <name>/              # Each theme: theme.json + index.css [+ preview.png]
+├── plugins/                 # 5 Paperclip plugin skeletons
+│   ├── compact-sidebar/     # Tighter sidebar density for power users
+│   ├── custom-accent/       # OKLCH accent color picker
+│   ├── focus-mode/          # Distraction-free writing view toggle
+│   ├── reading-time/        # Estimated reading time in sidebar
+│   └── word-count/          # Live word and character count
 ├── scripts/
-│   ├── deploy.sh            # Deploy a theme to staging
+│   ├── deploy.sh            # Deploy a theme/plugin to staging
 │   └── validate.sh          # Validate theme manifest + CSS
 ├── docs/
 │   ├── brand/               # Wild Agents brand artifacts
-│   │   ├── BRAND.md
-│   │   └── SIGNATURE.md
+│   ├── environments.md      # Dev vs orchestration instance guide
 │   ├── marketing/           # Marketing copy and campaign docs
-│   ├── strategy/            # Strategic planning docs
 │   └── technical/           # Engineering and workflow docs
-│       └── dev-workflow.md
+│       ├── dev-workflow.md
+│       ├── plugin-testing-checklist.md
+│       ├── qa-process.md
+│       └── code-review-standards.md
 ├── .gitignore
 └── README.md
 ```
@@ -113,16 +128,32 @@ bash scripts/deploy.sh themes/<theme-name>
 
 This uploads the theme to the Paperclip dev instance at `http://5.223.73.101:8081` via the plugin API.
 
+> **Note:** Deploy is currently blocked pending a dev API key refresh. See [MRW-38](/MRW/issues/MRW-38).
+
+### Develop a plugin
+
+Each plugin lives in `plugins/<plugin-name>/` and is a TypeScript package using the `@paperclipai/plugin-sdk`.
+
+```bash
+cd plugins/<plugin-name>
+npm install
+npm run build        # compile TypeScript
+npm run typecheck    # type-check without emit
+```
+
+Plugins are not yet published to the registry. Once the deploy blocker ([MRW-38](/MRW/issues/MRW-38)) is resolved, they will be installed on dev via the plugin API. See [docs/technical/plugin-testing-checklist.md](docs/technical/plugin-testing-checklist.md) for QA requirements.
+
 ---
 
 ## Contributing
 
-1. Create a feature branch from `main`: `git checkout -b theme/<name>`
-2. Develop and validate your theme locally.
+1. Create a feature branch from `main`: `git checkout -b theme/<name>` or `plugin/<name>`
+2. Develop and validate your theme or plugin locally.
 3. Open a Pull Request — at least one pack member review is required before merge.
 4. Direct pushes to `main` are disabled.
 
 See [docs/technical/dev-workflow.md](docs/technical/dev-workflow.md) for the full workflow.
+See [docs/environments.md](docs/environments.md) for the dev vs orchestration instance guide.
 
 ---
 
