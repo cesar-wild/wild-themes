@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-seafoam",
+  "version": "1.0.0",
+  "description": "Pale blue-green light theme. Vivid aqua accent. Wave breaking \u2014 fresh, airy, fleeting.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "seafoam",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

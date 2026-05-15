@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-champagne",
+  "version": "1.0.0",
+  "description": "Pale gold bubble. Warm cream surface. The deploy succeeded. This is what celebration looks like.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "champagne",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

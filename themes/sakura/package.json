@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-sakura",
+  "version": "1.0.0",
+  "description": "Cherry blossom light. Petals fall for a week every year \u2014 the impermanence is the point.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "sakura",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

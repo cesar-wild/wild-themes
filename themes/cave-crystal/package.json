@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-cave-crystal",
+  "version": "1.0.0",
+  "description": "Limestone dark. Crystalline teal catches the headlamp. Deep geology, slow time.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "cave-crystal",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

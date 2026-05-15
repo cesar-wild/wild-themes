@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-steel",
+  "version": "1.0.0",
+  "description": "Cool mid-grey dark theme. Steel-blue accent. Industrial precision, nothing soft.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "steel",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

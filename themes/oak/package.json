@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-oak",
+  "version": "1.0.0",
+  "description": "Medium warm wood. Golden growth ring accent. Five hundred years. Still standing. Still holding.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "oak",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

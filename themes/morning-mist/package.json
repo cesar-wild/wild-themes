@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-morning-mist",
+  "version": "1.0.0",
+  "description": "Dawn grey-white before color arrives. Soft blue-grey. The meeting is in two hours. Breathe.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "morning-mist",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-redwood",
+  "version": "1.0.0",
+  "description": "Ancient red-brown dark. The tree is three thousand years old. Warm orange pulse in the heartwood.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "redwood",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-rust",
+  "version": "1.0.0",
+  "description": "Oxidized iron. Warm orange-red surface. Time plus moisture equals this. Entropy is honest.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "rust",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

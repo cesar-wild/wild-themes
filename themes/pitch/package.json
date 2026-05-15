@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-pitch",
+  "version": "1.0.0",
+  "description": "Near-absolute dark neutral theme. Bright green accent. Tar black \u2014 total dark, only the signal shines.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "pitch",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

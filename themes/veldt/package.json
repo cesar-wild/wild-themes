@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-veldt",
+  "version": "1.0.0",
+  "description": "Open African grassland. Warm yellow-white light, golden accent. Expanse. Possibility. Movement.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "veldt",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

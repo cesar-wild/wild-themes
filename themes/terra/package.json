@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-terra",
+  "version": "1.0.0",
+  "description": "Earth red. Ground level. Everything built on this surface \u2014 the foundation is not optional.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "terra",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-slate-light",
+  "version": "1.0.0",
+  "description": "Cool-grey light theme. Slate-blue accent. Professional, restrained, precise.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "slate-light",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

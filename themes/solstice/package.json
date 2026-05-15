@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-solstice",
+  "version": "1.0.0",
+  "description": "Longest night, deepest dark. A single gold thread on the horizon. The turn is coming.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "solstice",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

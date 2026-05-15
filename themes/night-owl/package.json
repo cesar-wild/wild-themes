@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-night-owl",
+  "version": "1.0.0",
+  "description": "Dark blue-teal theme. Warm yellow accent. Optimised for 3am. Eyes open, brain sharp.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "night-owl",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

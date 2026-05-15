@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-cobalt",
+  "version": "1.0.0",
+  "description": "Rich dark blue theme. Bright cobalt accent. Deep water, cold and clear.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "cobalt",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

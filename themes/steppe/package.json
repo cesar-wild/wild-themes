@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-steppe",
+  "version": "1.0.0",
+  "description": "Dry grass plain. Ochre and distance. The horizon is a long promise with no guarantee.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "steppe",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

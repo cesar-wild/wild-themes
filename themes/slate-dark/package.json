@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-slate-dark",
+  "version": "1.0.0",
+  "description": "Cool dark grey theme. Muted periwinkle accent. Rock face, no fuss, dependable.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "slate-dark",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

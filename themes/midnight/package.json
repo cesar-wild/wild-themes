@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-midnight",
+  "version": "1.0.0",
+  "description": "Deep neutral dark. Silver accent. Zero hour \u2014 everything is possible, everything is still.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "midnight",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

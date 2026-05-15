@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-ash",
+  "version": "1.0.0",
+  "description": "Cool mid-light grey theme. Pale blue accent. After the fire \u2014 quiet, clean, reset.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "ash",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

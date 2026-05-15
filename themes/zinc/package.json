@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-zinc",
+  "version": "1.0.0",
+  "description": "Cool medium-grey dark theme. Bright cyan accent. Industrial metal \u2014 utilitarian, steady, functional.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "zinc",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

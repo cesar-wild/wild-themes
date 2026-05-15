@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-denim",
+  "version": "1.0.0",
+  "description": "Medium-dark indigo-blue theme. Bright blue accent. Worn fabric \u2014 faded, comfortable, familiar.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "denim",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

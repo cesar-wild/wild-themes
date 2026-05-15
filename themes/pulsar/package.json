@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-pulsar",
+  "version": "1.0.0",
+  "description": "Rotating neutron star. Precise cyan beam sweeps the dark. Millisecond timing. Absolute reliability.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "pulsar",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-spruce",
+  "version": "1.0.0",
+  "description": "Dark blue-green theme. Pale sky accent. Cold mountain air, high altitude clarity.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "spruce",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

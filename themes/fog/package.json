@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-fog",
+  "version": "1.0.0",
+  "description": "Neutral light grey theme. Soft blue-grey accent. Morning fog \u2014 visibility low, shapes half-seen.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "fog",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

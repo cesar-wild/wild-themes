@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-clover",
+  "version": "1.0.0",
+  "description": "Fresh bright-green light theme. Deep emerald accent. Roadside field \u2014 casual, abundant, alive.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "clover",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

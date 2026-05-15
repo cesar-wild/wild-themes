@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-lilac",
+  "version": "1.0.0",
+  "description": "Soft pale-purple light theme. Vivid violet accent. Spring blossom \u2014 gentle, faintly sweet.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "lilac",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

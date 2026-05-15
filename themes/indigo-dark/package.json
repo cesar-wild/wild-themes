@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-indigo-dark",
+  "version": "1.0.0",
+  "description": "Night-sky indigo. Lavender glimmer. The space between blue and purple is where the interesting things live.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "indigo-dark",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-lavender-field",
+  "version": "1.0.0",
+  "description": "Provence light. Violet rows under pale sky. Scent is memory. The work persists in the body.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "lavender-field",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

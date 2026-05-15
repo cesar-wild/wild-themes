@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-twilight",
+  "version": "1.0.0",
+  "description": "Deep blue-violet dark theme. Soft gold accent. Last light \u2014 sky between day and dark.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "twilight",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

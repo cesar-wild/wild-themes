@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-pine",
+  "version": "1.0.0",
+  "description": "Very dark cool evergreen theme. Bright teal-green accent. Winter forest \u2014 still, cold, permanent.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "pine",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

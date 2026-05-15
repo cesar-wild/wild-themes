@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-volcanic",
+  "version": "1.0.0",
+  "description": "Near-black dark theme. Vivid red accent. Pressure building underground. Power held in check.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "volcanic",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

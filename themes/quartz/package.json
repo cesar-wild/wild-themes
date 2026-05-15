@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-quartz",
+  "version": "1.0.0",
+  "description": "Pure crystalline white. Exact cool blue accent. Silicon and oxygen. The simplest things are most abundant.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "quartz",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

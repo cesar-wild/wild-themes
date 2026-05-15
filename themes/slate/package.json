@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-slate",
+  "version": "1.0.0",
+  "description": "Mountain rock face. Flat, grey-blue, permanent. Cyan crack where the sky gets through.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "slate",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

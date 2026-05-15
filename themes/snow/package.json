@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-snow",
+  "version": "1.0.0",
+  "description": "Purest light theme. Near-white surfaces, soft grey accent. Fresh fall \u2014 silence and clarity.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "snow",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

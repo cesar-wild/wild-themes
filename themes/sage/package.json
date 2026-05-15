@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-sage",
+  "version": "1.0.0",
+  "description": "Soft muted green-grey light theme. Calm sage-green accent. Still garden, morning dew still on the leaves.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "sage",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-burgundy",
+  "version": "1.0.0",
+  "description": "Deep dark wine-red theme. Soft rose-gold accent. Aged barrel \u2014 full-bodied, dry, sophisticated.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "burgundy",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

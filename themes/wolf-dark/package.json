@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-wolf-dark",
+  "version": "1.0.0",
+  "description": "Deep forest dark theme. Midnight greens, amber firelight. The pack hunts at night.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "wolf-dark",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

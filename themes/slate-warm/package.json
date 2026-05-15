@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-slate-warm",
+  "version": "1.0.0",
+  "description": "Warm-toned medium-dark slate theme. Amber accent. Stone in afternoon shadow \u2014 balanced and grounded.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "slate-warm",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

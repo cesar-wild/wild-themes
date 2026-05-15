@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-plum",
+  "version": "1.0.0",
+  "description": "Deep purple dark theme. Warm rose accent. Rich and considered \u2014 late autumn, last light.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "plum",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

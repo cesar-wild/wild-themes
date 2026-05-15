@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-fern",
+  "version": "1.0.0",
+  "description": "Dark saturated green theme. Bright yellow-green accent. Frond unfurling \u2014 lush, deep, prehistoric.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "fern",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

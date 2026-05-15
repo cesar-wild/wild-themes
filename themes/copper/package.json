@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-copper",
+  "version": "1.0.0",
+  "description": "Dark warm theme. Burnished copper accent. Aged metal, earned patina.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "copper",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

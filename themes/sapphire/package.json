@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-sapphire",
+  "version": "1.0.0",
+  "description": "Deep blue-grey dark theme. Vivid sapphire accent. Gem-quality depth \u2014 pure and unyielding blue.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "sapphire",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

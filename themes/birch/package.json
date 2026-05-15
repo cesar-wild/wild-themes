@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-birch",
+  "version": "1.0.0",
+  "description": "Cool pale light theme. Soft silver-grey accent. Birch bark \u2014 white, papery, northern quiet.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "birch",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

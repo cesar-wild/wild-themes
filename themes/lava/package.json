@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-lava",
+  "version": "1.0.0",
+  "description": "Very dark warm theme. Molten orange-red accent. The earth opened up \u2014 heat and flow.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "lava",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

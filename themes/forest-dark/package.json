@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-forest-dark",
+  "version": "1.0.0",
+  "description": "Deep forest green dark theme. Emerald accent. Eyes down, deep in the trees.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "forest-dark",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

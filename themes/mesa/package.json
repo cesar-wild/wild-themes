@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-mesa",
+  "version": "1.0.0",
+  "description": "Flat-topped warm dark. Copper glint in the rock. Patience built this. Wind will take centuries more.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "mesa",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

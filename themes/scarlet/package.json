@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-scarlet",
+  "version": "1.0.0",
+  "description": "Alarm red on deep dark. Maximum urgency accent. Read this comment. Now.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "scarlet",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

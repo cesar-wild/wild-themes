@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-aurora",
+  "version": "1.0.0",
+  "description": "Dark theme. Vivid teal-green accent. Northern lights over frozen ground.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "aurora",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

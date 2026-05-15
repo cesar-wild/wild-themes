@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-graphite",
+  "version": "1.0.0",
+  "description": "Medium-dark neutral grey theme. Warm off-white accent. Like writing on grey paper.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "graphite",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

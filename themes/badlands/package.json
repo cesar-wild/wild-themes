@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-badlands",
+  "version": "1.0.0",
+  "description": "Eroded dark rust. Harsh, beautiful, inhospitable. Rust accent. Only the adapted survive.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "badlands",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

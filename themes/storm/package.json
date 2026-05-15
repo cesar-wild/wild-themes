@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-storm",
+  "version": "1.0.0",
+  "description": "Dark stormy grey theme. Electric yellow accent. Charged air before lightning.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "storm",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

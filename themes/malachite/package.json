@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-malachite",
+  "version": "1.0.0",
+  "description": "Banded green mineral. Lime pulse on deep forest surface. Slow geology, fast code.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "malachite",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

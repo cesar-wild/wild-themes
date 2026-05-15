@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-thunderhead",
+  "version": "1.0.0",
+  "description": "Anvil cloud dark. Electric-white flicker. Ten thousand volts of build pressure.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "thunderhead",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

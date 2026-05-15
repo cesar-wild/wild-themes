@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-pumice",
+  "version": "1.0.0",
+  "description": "Pale warm-grey light theme. Muted terracotta accent. Volcanic powder \u2014 lightweight, porous, textured.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "pumice",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-orchid",
+  "version": "1.0.0",
+  "description": "Dark purple-black theme. Vivid magenta accent. Hothouse bloom \u2014 exotic, deep, unexpected.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "orchid",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

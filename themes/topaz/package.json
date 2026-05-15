@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-topaz",
+  "version": "1.0.0",
+  "description": "Clear warm-yellow light theme. Vivid golden accent. Cut gemstone \u2014 transparent, brilliant, precise.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "topaz",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

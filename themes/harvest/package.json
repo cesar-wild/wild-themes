@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-harvest",
+  "version": "1.0.0",
+  "description": "Full amber fields at dusk. Deep amber accent. The work is in. Count the yield. Begin again.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "harvest",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

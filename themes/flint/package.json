@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-flint",
+  "version": "1.0.0",
+  "description": "Cool dark grey theme. Sharp electric-blue accent. Struck spark \u2014 cold hardness, sudden light.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "flint",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

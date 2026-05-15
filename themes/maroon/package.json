@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-maroon",
+  "version": "1.0.0",
+  "description": "Deep dark red. Cream accent. The old library, the worn chair, the work that lasts centuries.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "maroon",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

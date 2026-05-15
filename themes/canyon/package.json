@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-canyon",
+  "version": "1.0.0",
+  "description": "Sandstone walls at night. Orange horizon. Two billion years of layered record \u2014 read the stripes.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "canyon",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

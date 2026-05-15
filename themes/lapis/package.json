@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-lapis",
+  "version": "1.0.0",
+  "description": "Ancient blue, flecked gold. Afghan mountains. Every pharaoh wanted this. The pack ships it.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "lapis",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

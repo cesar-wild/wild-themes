@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-ivory",
+  "version": "1.0.0",
+  "description": "Warm off-white light theme. Soft amber accent. Old keys, old bone \u2014 warmth without glare.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "ivory",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

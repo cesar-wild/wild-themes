@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-carbon",
+  "version": "1.0.0",
+  "description": "True dark neutral theme. Bright cyan accent. High-tech, no warmth, built for output.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "carbon",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-circuit",
+  "version": "1.0.0",
+  "description": "PCB dark green with trace lines. Orange status LED. Current flows through every commit.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "circuit",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

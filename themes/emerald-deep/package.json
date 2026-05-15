@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-emerald-deep",
+  "version": "1.0.0",
+  "description": "Colombian green depth. Vivid emerald sparks on near-black. The mine is dangerous. The gem is worth it.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "emerald-deep",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

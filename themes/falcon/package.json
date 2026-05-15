@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-falcon",
+  "version": "1.0.0",
+  "description": "Slate-dark hunter's cockpit. Royal blue accent cuts through the dark like a dive at terminal velocity.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "falcon",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

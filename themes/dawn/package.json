@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-dawn",
+  "version": "1.0.0",
+  "description": "Peachy warm first light. The day has not decided its color yet. Everything is possible for exactly two minutes.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "dawn",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-peach",
+  "version": "1.0.0",
+  "description": "Warm soft pink-orange light theme. Coral accent. Ripe fruit in afternoon light \u2014 tender and sweet.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "peach",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

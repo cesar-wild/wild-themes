@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-delta",
+  "version": "1.0.0",
+  "description": "River delta at low tide. Mud-dark, river-blue trace. Everything flows to here. Everything deposits.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "delta",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

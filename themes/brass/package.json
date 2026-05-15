@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-brass",
+  "version": "1.0.0",
+  "description": "Medium warm metallic. Golden glint. Mechanical precision at the intersection of beauty and function.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "brass",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

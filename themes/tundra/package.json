@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-tundra",
+  "version": "1.0.0",
+  "description": "Cold grey-green dark theme. Lichen green accent. Flat, open, relentless.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "tundra",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

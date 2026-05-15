@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-cloud",
+  "version": "1.0.0",
+  "description": "Pure cumulus white. Sky-blue accent. The infrastructure is invisible until it isn't.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "cloud",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

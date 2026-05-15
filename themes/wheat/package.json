@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-wheat",
+  "version": "1.0.0",
+  "description": "Warm golden-yellow light theme. Earthy brown accent. Fields in late summer, open and calm.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "wheat",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-synthwave",
+  "version": "1.0.0",
+  "description": "80s neon grid on purple night. Pink and cyan pulse. The sunset never ends on this highway.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "synthwave",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

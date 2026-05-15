@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-mahogany",
+  "version": "1.0.0",
+  "description": "Deep warm dark theme. Rich red-brown accent. Polished wood, old library, earned authority.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "mahogany",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

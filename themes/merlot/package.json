@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-merlot",
+  "version": "1.0.0",
+  "description": "Dark plum-red theme. Soft pink accent. Swirled glass \u2014 round, dark, complex.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "merlot",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

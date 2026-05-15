@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-mauve",
+  "version": "1.0.0",
+  "description": "Muted warm-purple light theme. Soft rose-purple accent. Old velvet \u2014 faded, dignified, still beautiful.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "mauve",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

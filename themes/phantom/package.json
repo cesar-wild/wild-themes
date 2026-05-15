@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-phantom",
+  "version": "1.0.0",
+  "description": "Almost nothing. Maximum dark, ghost-white accent. The spaces between things are information too.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "phantom",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

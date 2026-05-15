@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-serpentine",
+  "version": "1.0.0",
+  "description": "Dark olive-green mineral. Slow, winding, ancient. The serpentine path is not lost \u2014 it is deliberate.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "serpentine",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-bayou",
+  "version": "1.0.0",
+  "description": "Cypress swamp at night. Humid, still, olive-dark. Firefly green blinks once. Something watches.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "bayou",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

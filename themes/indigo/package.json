@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-indigo",
+  "version": "1.0.0",
+  "description": "Deep indigo dark theme. Vivid violet accent. Night sky before the stars appear.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "indigo",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

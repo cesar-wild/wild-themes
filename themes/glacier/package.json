@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-glacier",
+  "version": "1.0.0",
+  "description": "Very light cool blue-white theme. Deep ice-blue accent. Frozen and vast, everything visible.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "glacier",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

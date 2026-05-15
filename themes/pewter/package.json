@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-pewter",
+  "version": "1.0.0",
+  "description": "Cool medium-dark grey theme. Soft teal accent. Alloyed metal \u2014 dull sheen, reliable, unpretentious.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "pewter",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

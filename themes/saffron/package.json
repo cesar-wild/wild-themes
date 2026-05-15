@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-saffron",
+  "version": "1.0.0",
+  "description": "The most expensive spice by weight. Deep yellow-orange on near-black. Rare. Worth it.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "saffron",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

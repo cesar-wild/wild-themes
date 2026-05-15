@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-prairie",
+  "version": "1.0.0",
+  "description": "Golden hour over flat grass. Warm pale light, amber thread. The horizon is not the limit \u2014 it is the goal.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "prairie",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

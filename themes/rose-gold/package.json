@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-rose-gold",
+  "version": "1.0.0",
+  "description": "Warm pink-gold light. The alloy does not exist in nature \u2014 that is what makes it ours.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "rose-gold",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

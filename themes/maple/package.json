@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-maple",
+  "version": "1.0.0",
+  "description": "Warm dark reddish-brown theme. Bright amber accent. Autumn canopy in full colour.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "maple",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

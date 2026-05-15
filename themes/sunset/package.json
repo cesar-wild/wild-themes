@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-sunset",
+  "version": "1.0.0",
+  "description": "Warm cream light theme. Deep orange accent. The sky before dark \u2014 bold and unhurried.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "sunset",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

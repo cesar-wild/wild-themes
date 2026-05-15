@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-sand",
+  "version": "1.0.0",
+  "description": "Very light neutral warm theme. Muted gold accent. Open and flat \u2014 nothing to hide behind.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "sand",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-midnight-blue",
+  "version": "1.0.0",
+  "description": "Deep navy dark theme. Electric blue accent. Total focus at 2am.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "midnight-blue",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

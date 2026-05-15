@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-hemp",
+  "version": "1.0.0",
+  "description": "Neutral warm-beige light theme. Muted olive accent. Undyed cloth \u2014 honest, plain, unglamorous.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "hemp",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

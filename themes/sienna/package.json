@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-sienna",
+  "version": "1.0.0",
+  "description": "Reddish-brown earth pigment. Used since the cave painters. Some colors survive because they are right.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "sienna",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

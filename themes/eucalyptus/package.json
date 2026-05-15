@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-eucalyptus",
+  "version": "1.0.0",
+  "description": "Cool blue-green light theme. Muted silver-green accent. Gum tree \u2014 dry air, silver leaf, distant hills.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "eucalyptus",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-autumn",
+  "version": "1.0.0",
+  "description": "Red-brown canopy in the fall. Orange pulse through the leaf. The tree is letting go strategically.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "autumn",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

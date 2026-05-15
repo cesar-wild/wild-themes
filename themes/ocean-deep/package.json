@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-ocean-deep",
+  "version": "1.0.0",
+  "description": "Two kilometres below the surface. Pressure. Bioluminescent aqua trace. Nothing loud survives down here.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "ocean-deep",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

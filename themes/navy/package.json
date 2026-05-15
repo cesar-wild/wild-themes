@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-navy",
+  "version": "1.0.0",
+  "description": "Naval dark. Horizon-scanning blue. Sharp cyan signal light. Order, discipline, the long watch.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "navy",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

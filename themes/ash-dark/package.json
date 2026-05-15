@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-ash-dark",
+  "version": "1.0.0",
+  "description": "Medium-dark cool neutral theme. Soft blue-white accent. Cold ash \u2014 what remains after the burn.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "ash-dark",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

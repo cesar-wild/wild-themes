@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-willow",
+  "version": "1.0.0",
+  "description": "Pale green light through trailing branches. Soft. Yielding but rooted. The willow bends, does not break.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "willow",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

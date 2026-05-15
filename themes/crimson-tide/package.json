@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-crimson-tide",
+  "version": "1.0.0",
+  "description": "Deep red-dark. Rising tide of crimson. The system is under pressure. Release valves open. Ship.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "crimson-tide",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

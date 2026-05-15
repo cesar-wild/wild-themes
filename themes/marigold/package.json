@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-marigold",
+  "version": "1.0.0",
+  "description": "Saturated yellow-orange on dark. Marigold says: here. Exactly here. Look.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "marigold",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

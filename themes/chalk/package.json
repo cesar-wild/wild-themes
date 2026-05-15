@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-chalk",
+  "version": "1.0.0",
+  "description": "Soft warm-white light theme. Muted coral accent. Dusty board \u2014 hand-drawn, temporary, present.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "chalk",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

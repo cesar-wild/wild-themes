@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-jaguar",
+  "version": "1.0.0",
+  "description": "Jungle dark. Teal accent flares like eyes in the canopy. Moves fast, leaves no trace.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "jaguar",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

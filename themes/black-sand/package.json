@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-black-sand",
+  "version": "1.0.0",
+  "description": "Volcanic beach at low tide. Black iron sand, green sea trace. Iceland. Relentless. Honest.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "black-sand",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

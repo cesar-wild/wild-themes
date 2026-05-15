@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-taiga",
+  "version": "1.0.0",
+  "description": "Boreal forest dark. Muted gold in the pine canopy. Old growth, slow patience, deep roots.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "taiga",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

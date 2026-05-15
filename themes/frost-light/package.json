@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-frost-light",
+  "version": "1.0.0",
+  "description": "Pale icy light theme. Glacial blue accent. Clarity without warmth.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "frost-light",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

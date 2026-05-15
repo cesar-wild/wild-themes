@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-arctic",
+  "version": "1.0.0",
+  "description": "Pure white expanse. Horizon-blue accent. Horizon is not the end \u2014 it is the beginning of the next thing.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "arctic",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

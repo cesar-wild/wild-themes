@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-verdigris",
+  "version": "1.0.0",
+  "description": "Oxidised copper-green. Blue-green aged patina. Time makes this color. You cannot rush it.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "verdigris",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

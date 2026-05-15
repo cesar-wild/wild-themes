@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-heather",
+  "version": "1.0.0",
+  "description": "Scottish moor medium purple. Mauve ground, violet rise. Wild, uncultivated, wind-scoured and alive.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "heather",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

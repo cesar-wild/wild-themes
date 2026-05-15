@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-cedar",
+  "version": "1.0.0",
+  "description": "Warm cedar dark. Orange-amber resin. The wood holds shape across generations.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "cedar",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

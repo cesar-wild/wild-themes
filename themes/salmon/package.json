@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-salmon",
+  "version": "1.0.0",
+  "description": "Warm salmon pink. Upstream current. Against the flow is the only direction that matters.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "salmon",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

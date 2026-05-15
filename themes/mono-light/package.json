@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-mono-light",
+  "version": "1.0.0",
+  "description": "Pure neutral light theme. No color, no hue. Just grey tones and sharp contrast.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "mono-light",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

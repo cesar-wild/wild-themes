@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-amethyst",
+  "version": "1.0.0",
+  "description": "Dark cool-purple theme. Vivid pink-purple accent. Gemstone clarity in the dark.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "amethyst",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

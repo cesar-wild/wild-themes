@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-raven",
+  "version": "1.0.0",
+  "description": "Ink-black surfaces, iridescent violet. The raven sees what others miss. Smart. Still. Watchful.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "raven",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-onyx",
+  "version": "1.0.0",
+  "description": "Deep neutral-black dark theme. White accent. Polished stone \u2014 stark, composed, absolute.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "onyx",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

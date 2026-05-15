@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-meadow",
+  "version": "1.0.0",
+  "description": "Open field light. Green emerald accent in the grass. Sun-warm white. The pack runs free here.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "meadow",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

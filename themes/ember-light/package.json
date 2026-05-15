@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-ember-light",
+  "version": "1.0.0",
+  "description": "Warm peachy light theme. Ember orange accent. The light version of the forge.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "ember-light",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

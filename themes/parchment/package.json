@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-parchment",
+  "version": "1.0.0",
+  "description": "Aged warm-yellow light theme. Deep brown accent. Old maps, illuminated manuscripts.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "parchment",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

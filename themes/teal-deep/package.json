@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-teal-deep",
+  "version": "1.0.0",
+  "description": "Blue-green abyss. Aqua bioluminescence. The deep ocean runs its own protocols.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "teal-deep",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-tangerine",
+  "version": "1.0.0",
+  "description": "Warm bright-white light theme. Bold orange accent. Segment split open \u2014 vivid, tart, energetic.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "tangerine",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

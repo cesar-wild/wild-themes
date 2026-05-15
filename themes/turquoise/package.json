@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-turquoise",
+  "version": "1.0.0",
+  "description": "Sky-meets-sea bright. Dark accent to hold the intensity. Southwest desert, Native sky. Old and immediate.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "turquoise",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

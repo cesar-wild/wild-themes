@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-cinder",
+  "version": "1.0.0",
+  "description": "Post-fire grey. Warm residue, orange ember buried in the ash. Something survived. Start again.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "cinder",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

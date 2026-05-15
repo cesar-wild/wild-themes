@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-cream",
+  "version": "1.0.0",
+  "description": "Very warm off-white light theme. Soft coral accent. Comfortable and unhurried.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "cream",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

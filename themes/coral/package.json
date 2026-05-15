@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-coral",
+  "version": "1.0.0",
+  "description": "Warm orange-pink. Dark teal contrast. Reef ecosystem: everything depends on everything.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "coral",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

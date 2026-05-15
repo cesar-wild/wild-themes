@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-boreal",
+  "version": "1.0.0",
+  "description": "Northern forest deep. Green-gold glow between black spruce. The pack shelters here.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "boreal",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

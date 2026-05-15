@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-rose-light",
+  "version": "1.0.0",
+  "description": "Clean warm light theme. Rose pink accent. Soft, precise, and inviting.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "rose-light",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

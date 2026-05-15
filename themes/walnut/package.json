@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-walnut",
+  "version": "1.0.0",
+  "description": "Warm dark brown theme. Amber-gold accent. Aged hardwood \u2014 rich grain, lasting warmth.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "walnut",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

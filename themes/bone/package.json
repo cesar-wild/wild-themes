@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-bone",
+  "version": "1.0.0",
+  "description": "Warm off-white light theme. Dusty brown accent. Desert bleached, ancient and enduring.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "bone",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

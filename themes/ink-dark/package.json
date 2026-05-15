@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-ink-dark",
+  "version": "1.0.0",
+  "description": "Deep neutral dark theme. Ink-black surfaces, pure white accent. Written in the dark.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "ink-dark",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

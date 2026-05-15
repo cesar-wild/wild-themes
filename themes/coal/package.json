@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-coal",
+  "version": "1.0.0",
+  "description": "Very dark warm-black theme. Electric orange accent. Mined deep \u2014 raw material, raw power.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "coal",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

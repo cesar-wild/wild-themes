@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-crimson",
+  "version": "1.0.0",
+  "description": "Near-black dark theme. Vivid crimson red accent. Power and precision, no apology.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "crimson",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

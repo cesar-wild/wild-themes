@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-magnolia",
+  "version": "1.0.0",
+  "description": "Cream-white light. Soft purple interior. The magnolia blooms before it leafs \u2014 courage over shelter.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "magnolia",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

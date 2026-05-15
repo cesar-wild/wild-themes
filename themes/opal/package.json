@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-opal",
+  "version": "1.0.0",
+  "description": "Pale iridescent light theme. Shifting violet-pink accent. Play of color \u2014 delicate, prismatic, elusive.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "opal",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-void-crimson",
+  "version": "1.0.0",
+  "description": "Black-hole surface, one single crimson signal. Danger is information. Read it.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "void-crimson",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

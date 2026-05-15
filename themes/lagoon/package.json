@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-lagoon",
+  "version": "1.0.0",
+  "description": "Vivid blue-green dark theme. Bright turquoise accent. Tropical water \u2014 saturated, warm, luminous.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "lagoon",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}

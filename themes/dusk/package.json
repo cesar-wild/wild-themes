@@ -1,0 +1,16 @@
+{
+  "name": "@wild-agents/theme-dusk",
+  "version": "1.0.0",
+  "description": "Warm dark theme. Dusty violet accent. The hour between day and night \u2014 in-between and beautiful.",
+  "author": "Wild Agents",
+  "private": false,
+  "files": [
+    "theme.json",
+    "index.css"
+  ],
+  "paperclipPlugin": {
+    "themeId": "dusk",
+    "css": "./index.css",
+    "manifest": "./theme.json"
+  }
+}
