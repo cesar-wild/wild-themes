@@ -7,13 +7,17 @@
 # Env vars:
 #   PAPERCLIP_DEV_URL    (default: http://5.223.73.101:8081)
 #   PAPERCLIP_DEV_API_KEY (required)
-#   DEPLOY_MODE          "local" (default) | "npm"
-#                        local: install from this filesystem (requires agent on same host as dev server)
+#   DEPLOY_MODE          "github" (default) | "local" | "npm"
+#                        github: install from GitHub Release tarballs (no npm creds needed — RECOMMENDED)
+#                        local: install from this filesystem (blocked by filesystem isolation in agent containers)
 #                        npm: install from npm registry (requires packages published as @wild-agents/theme-*)
+#   GITHUB_RELEASE_BASE  tarball base URL (default: GitHub v1.0.0 release)
 #
 # Deploy modes:
-#   local — uses paperclipai plugin install --local (blocked by filesystem isolation in agent containers)
-#   npm   — uses paperclipai plugin install @wild-agents/theme-<name> (requires npm publish first)
+#   github — downloads tarballs from https://github.com/cesar-wild/wild-themes/releases/download/v1.0.0/
+#            No npm credentials needed. Public URLs. RECOMMENDED.
+#   local  — uses paperclipai plugin install --local (blocked by filesystem isolation in agent containers)
+#   npm    — uses paperclipai plugin install @wild-agents/theme-<name> (requires npm publish first)
 
 set -euo pipefail
 
@@ -23,7 +27,8 @@ THEMES_DIR="$REPO_DIR/themes"
 
 DEV_URL="${PAPERCLIP_DEV_URL:-http://5.223.73.101:8081}"
 API_KEY="${PAPERCLIP_DEV_API_KEY:-}"
-DEPLOY_MODE="${DEPLOY_MODE:-local}"
+DEPLOY_MODE="${DEPLOY_MODE:-github}"
+GITHUB_RELEASE_BASE="${GITHUB_RELEASE_BASE:-https://github.com/cesar-wild/wild-themes/releases/download/v1.0.0}"
 
 PCLI="$(npx --no-install paperclipai 2>/dev/null || npx paperclipai)"
 
@@ -65,7 +70,20 @@ for theme in "${THEMES[@]}"; do
     continue
   fi
 
-  if [ "$DEPLOY_MODE" = "npm" ]; then
+  if [ "$DEPLOY_MODE" = "github" ]; then
+    TARBALL_URL="${GITHUB_RELEASE_BASE}/wild-agents-theme-${theme}-1.0.0.tgz"
+    if $PCLI plugin install \
+        --api-base "$DEV_URL" \
+        --api-key "$API_KEY" \
+        "$TARBALL_URL" > /dev/null 2>&1; then
+      echo "OK (github)"
+      PASS=$((PASS + 1))
+    else
+      echo "FAIL"
+      FAIL=$((FAIL + 1))
+      ERRORS+=("$theme: github tarball install failed")
+    fi
+  elif [ "$DEPLOY_MODE" = "npm" ]; then
     PACKAGE="@wild-agents/theme-$theme"
     if $PCLI plugin install \
         --api-base "$DEV_URL" \
